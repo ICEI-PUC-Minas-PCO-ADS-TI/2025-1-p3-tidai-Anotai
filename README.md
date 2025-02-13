@@ -11,7 +11,7 @@ Escreva um ou dois parágrafos resumindo o objetivo do seu projeto.
 ## Integrantes
 
 * Nome completo do aluno 1
-* Nome completo do aluno 2
+Carlai Soares do Carmo (31) 99156-6716
 * Nome completo do aluno 3
 * Nome completo do aluno 4
 * Nome completo do aluno 5
