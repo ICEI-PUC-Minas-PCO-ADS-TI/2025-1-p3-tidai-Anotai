@@ -1,6 +1,6 @@
 # Introdução
 
-Neste projeto, vamos criar um site que permite professores, treinadores ou ate mesmo pessoas comuns anotarem tarefas para fazer durante o dia, identificamos que muitas pessoas tem problema em relação a ter compromisso com horarios e saber organizar o seu dia e seu tempo, então esse site veio para ajudar nisso.
+Neste projeto, vamos desenvolver um site que permite professores, treinadores ou ate mesmo pessoas comuns anotarem tarefas para fazer durante o dia, identificamos que muitas pessoas tem problema em relação a ter compromisso com horarios e saber organizar o seu dia e seu tempo, então esse site veio para ajudar nisso.
 
 ## Problema
 Hoje em dia muitas pessoas não conseguem organizar seu tempo durante o dia, as vezes passam compromissos importantes e tambem tem as pessoas que querem apenas organizar o tempo para estudar, passear, malhar etc 
@@ -16,26 +16,23 @@ O grupo pode optar por fazer uso de ferramentas como Design Thinking, que permit
 
 ## Objetivos
 
-Pretendemos criar um site com interface intuitiva, implementar notificações,
+Desenvolver um site para a criação de lembretes, e vamos oferecer aos usuários uma ferramenta digital intuitiva para organizar e otimizar as suas tarefas diárias.
+
+
  
 > **Links úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+O site está sendo desenvolvido para ajudar pessoas a organizarem seu dia a dia de forma simples e eficiente. Essa ideia surgiu da necessidade de uma ferramenta prática e acessível, que facilite a gestão do tempo e aumente a produtividade do dia a dia.
 
 > **Links úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-alvo
 
-O perfil
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
+Pessoas com atividades em grupo: Professores, treinadores e pessoas comuns.
 > **Links úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
 > - [Como definir o público-alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
