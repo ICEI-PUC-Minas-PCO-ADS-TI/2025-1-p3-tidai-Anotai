@@ -11,7 +11,7 @@ Escreva um ou dois parágrafos resumindo o objetivo do seu projeto.
 ## Integrantes
 
 * Gabriel Madureira Matos
-* Nome completo do aluno 2
+* Filipe Augusto dos Santos Silva
 * Nome completo do aluno 3
 
 ## Professor
