@@ -50,38 +50,26 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 - Testes: Caique Vilareal
 - Documentação: Gabriel Madureira, Caique Vilareal, Felipe
 
-#### Sprint 2
-- _Scrum master_: AlunaY
-- Desenvolvedor _front-end_: AlunoX
-- Desenvolvedor _back-end_: AlunoK
-- Testes: AlunaZ
-
 ###  Quadro de tarefas
 
 > Apresente a divisão de tarefas entre os membros do grupo e o acompanhamento da execução, conforme o exemplo abaixo.
 
 #### Sprint 1
 
-Atualizado em: 21/04/2024
+Atualizado em: 12/03/2025
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| AlunaX        | Introdução | 01/02/2024     | 07/02/2024 | ✔️    | 05/02/2024      |
-| AlunaZ        | Objetivos    | 03/02/2024     | 10/02/2024 | 📝    |                 |
-| AlunoY        | Histórias de usuário  | 01/01/2024     | 07/01/2005 | ⌛     |                 |
-| AlunoK        | Personas 1  |    01/01/2024        | 12/02/2005 | ❌    |       |
-
-#### Sprint 2
-
-Atualizado em: 21/04/2024
-
-| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
-| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| AlunaX        | Página inicial   | 01/02/2024     | 07/03/2024 | ✔️    | 05/02/2024      |
-| AlunaZ        | CSS unificado    | 03/02/2024     | 10/03/2024 | 📝    |                 |
-| AlunoY        | Página de login  | 01/02/2024     | 07/03/2024 | ⌛     |                 |
-| AlunoK        | Script de login  |  01/01/2024    | 12/03/2024 | ❌    |       |
-
+| Gabriel Madureira    | Introdução | 05/03/2025     | 12/03/2025 | ✔️    | 12/03/2025      |
+| Gabriel Madureira    | Problemas    | 05/03/2025     | 12/03/2025 | ✔️    | 12/03/2025     |
+| Gabriel Madureira    | Objetivos | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
+| Gabriel Madureira    | Wireframes  | 26/02/2024     | 09/04/2025 | 📝    |     |
+| Gabriel Madureira    | Restrições  | 26/02/2024     | 12/03/2025 | 📝    | 12/03/2025    |
+| Caique Vilareal    | Justificativa | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
+| Caique Vilareal    | Publico-Alvo | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
+| Felipe    | Especificação | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
+| Felipe    | Requisitos Funcionais | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
+| Felipe    | Requisitos não funcionais | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
 
 Legenda:
 - ✔️: terminado
