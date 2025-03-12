@@ -86,7 +86,10 @@ O projeto está restrito aos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |001| O projeto deverá ser entregue até o final do semestre |
-|002| O custo total do projeto não deve exceder o orçamento definido       |
+|002| O custo total do projeto não deve exceder o orçamento definido|
+|003| O software deve ser responsivo e funcionar em dispositivos móveis e desktops.|
+|004| Não haverá suporte tecnico 24h.|
+|005|O sistema não pode exigir hardware avançado do usuário final para funcionar corretamente.|
 
 ## Diagrama de casos de uso
 
