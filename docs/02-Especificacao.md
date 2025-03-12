@@ -48,18 +48,18 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Cadastro de usuários   | MÉDIA |
-|RF-002| Login e autenticação   | MÉDIA |
-|RF-003| Criação de metas   | MÉDIA |
-|RF-004| Definição de prioridades   | MÉDIA |
+|RF-001| Permitir o adastro de usuários   | ALTA |
+|RF-002| Login e autenticação   | AlTA |
+|RF-003| Permitir que o usuário crie metas   | AlTA |
+|RF-004| Permitir que o usuário defina as prioridades das metas  | MÉDIA |
 |RF-005| Organização por categorias   | MÉDIA |
-|RF-006| Definição de prazos   | MÉDIA |
-|RF-007| definições de lembretes   | MÉDIA |
-|RF-008| Monitoramento do progresso   | MÉDIA |
-|RF-009| Compartilhamento de metas   | MÉDIA |
-|RF-010| Integração com o calendário  | MÉDIA |
-|RF-011| Excluir metas   | MÉDIA |
-|RF-012| Marcar meta como concluida   | MÉDIA |
+|RF-006| Permitir que o usuário defina prazos   | ALTA |
+|RF-007| Permitir que o usuário defina lembretes   | MÉDIA |
+|RF-008| Permitir que o usuário acompanhe o progresso   | BAIXA |
+|RF-009| Permitir que o usuário compartilhe metas   | MÉDIA |
+|RF-010| Integração com o calendário  | BAIXA |
+|RF-011| permitir que o usuário exclua metas   | MÉDIA |
+|RF-012| Marcar meta como concluida   | ALTA |
 
 ### Requisitos não funcionais
 
@@ -67,10 +67,10 @@ ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em dispositivos móveis | MÉDIA | 
 |RNF-002| Deve processar as requisições do usuário em no máximo 3 segundos |  BAIXA | 
-|RNF-002| Os dados do usuário devem ser protegidos por criptografia |  ALTA |
-|RNF-002| O sistema deve ficar disponível pelo menos 99% do tempo |  ALTA |
-|RNF-002| O software deve ser compativel com diferentes navegadores |  ALTA |
-|RNF-002| Os dados do usuário devem ser armazenados no banco de dados de forma segura |  ALTA |
+|RNF-003| Os dados do usuário devem ser protegidos por criptografia |  ALTA |
+|RNF-004| O sistema deve ficar disponível pelo menos 99% do tempo |  ALTA |
+|RNF-005| O software deve ser compativel com diferentes navegadores |  ALTA |
+|RNF-006| Os dados do usuário devem ser armazenados no banco de dados de forma segura |  ALTA |
 
 
 
