@@ -1,6 +1,6 @@
 # Introdução
 
-Neste projeto, vamos desenvolver um site que permite professores, treinadores ou ate mesmo pessoas comuns anotarem tarefas para fazer durante o dia, identificamos que muitas pessoas tem problema em relação a ter compromisso com horarios e saber organizar o seu dia e seu tempo, então esse site veio para ajudar nisso.
+Observando a crescente dificuldade na organização diária das pessoas, desenvolvemos o projeto Anotaí. Nosso objetivo é oferecer uma solução prática e acessível para indivíduos, trabalhadores e empreendedores, ajudando-os a estruturar melhor suas rotinas. Com isso, buscamos aumentar a produtividade, reduzir o estresse e melhorar a eficiência em realização de tarefas diárias, aumentando a produtividade no dia a dia.
 
 ## Problema
 Hoje em dia muitas pessoas não conseguem organizar seu tempo durante o dia, as vezes passam compromissos importantes e tambem tem as pessoas que querem apenas organizar o tempo para estudar, passear, malhar etc 
