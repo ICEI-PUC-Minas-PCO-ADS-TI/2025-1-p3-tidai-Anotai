@@ -29,9 +29,8 @@ Além disso, a adoção de ferramentas tecnológicas para otimização do tempo 
 
 ## Público-alvo
 
-Pessoas com atividades em grupo: Professores, treinadores e pessoas comuns.
-> **Links úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público-alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+O Anotaí abrange uma grande parcela de usuários, mais especificamente:
+- Estudantes: Pessoas que precisam gerenciar prazos de trabalhos, provas e outras atividades acadêmicas.
+- Profissionais: Trabalhadores autônomos e funcionários de empresas que desejam otimizar suas tarefas e compromissos.
+- Empreendedores e Pequenos Negócios: Donos de negócios que necessitam de uma ferramenta simples para planejar atividades, reuniões e metas.
+- Pessoas com Rotinas Agitadas: Indivíduos que enfrentam dificuldades na administração do tempo devido à grande quantidade de compromissos diários.
