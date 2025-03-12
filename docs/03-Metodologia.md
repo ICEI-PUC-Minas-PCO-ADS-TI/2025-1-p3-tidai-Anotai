@@ -91,9 +91,9 @@ Exemplo: os artefatos do projeto são desenvolvidos a partir de diversas platafo
 
 | Ambiente                            | Plataforma                         | Link de acesso                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
-| Repositório de código fonte         | GitHub                             | http://....                            |
-| Documentos do projeto               | GitHub                             | http://....                            |
-| Projeto de interface                | Figma                              | http://....                            |
+| Repositório de código fonte         | GitHub                             |https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/2025-1-p3-tidai-grupo-5|
+| Documentos do projeto               | GitHub                             |https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/2025-1-p3-tidai-grupo-5|
+| Projeto de interface                | Figma                              |https://www.figma.com/design/CG0A4AGDgCua1hwyJFzW8G/lista-de-tarefas?node-id=0-1&m=dev&t=sc73mU8sUnCz3rcZ-1|
 | Gerenciamento do projeto            | GitHub Projects                    | http://....                            |
 | Hospedagem                          | Vercel                             | http://....                            |
  
