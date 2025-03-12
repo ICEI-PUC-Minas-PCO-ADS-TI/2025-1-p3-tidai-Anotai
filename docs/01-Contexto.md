@@ -3,9 +3,9 @@
 Observando a crescente dificuldade na organização diária das pessoas, desenvolvemos o projeto Anotaí. Nosso objetivo é oferecer uma solução prática e acessível para indivíduos, trabalhadores e empreendedores, ajudando-os a estruturar melhor suas rotinas. Com isso, buscamos aumentar a produtividade, reduzir o estresse e melhorar a eficiência em realização de tarefas diárias, aumentando a produtividade no dia a dia.
 
 ## Problema
-Hoje em dia muitas pessoas não conseguem organizar seu tempo durante o dia, as vezes passam compromissos importantes e tambem tem as pessoas que querem apenas organizar o tempo para estudar, passear, malhar etc 
+Com o avanço da tecnologia, o volume de informações a serem processadas diariamente aumentou, impactando a produtividade e dificultando a organização. Além disso, a sobrecarga de tarefas, a ausência de métodos estruturados de planejamento e as constantes distrações, como redes sociais e notificações, comprometem a eficiência.
 
-Esse site sera usado por profissionais como treinadores de academias, professores particulares e pessoas comuns, eles vão poder anotar as taferas do dia no site.
+Diante desses desafios, criamos o Anotaí, uma solução intuitiva e segura para otimizar a gestão do tempo. Com ele, buscamos facilitar a definição de prioridades e promover hábitos organizacionais mais eficientes, garantindo maior produtividade e equilíbrio na rotina.
 
 O grupo pode optar por fazer uso de ferramentas como Design Thinking, que permite uma visão completa do problema.
 
