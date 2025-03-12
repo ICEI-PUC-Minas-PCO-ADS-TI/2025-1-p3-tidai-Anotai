@@ -60,6 +60,9 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 |RF-010| Integração com o calendário  | BAIXA |
 |RF-011| permitir que o usuário exclua metas   | MÉDIA |
 |RF-012| Marcar meta como concluida   | ALTA |
+|RF-013| Permitir o usuário criar seu perfil   | ALTA |
+|RF-014| Possibilitar com que o usuário selecione uma foto de perfil   | BAIXA |
+|RF-015| Permitir que o usuário mude informações do seu perfil   | MÉDIA |
 
 ### Requisitos não funcionais
 
