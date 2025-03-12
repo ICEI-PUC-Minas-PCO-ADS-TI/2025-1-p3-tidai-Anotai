@@ -54,11 +54,12 @@ Atualizado em: 12/03/2025
 | Gabriel Madureira    | Objetivos | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
 | Gabriel Madureira    | Wireframes  | 26/02/2024     | 09/04/2025 | 📝    |     |
 | Gabriel Madureira    | Restrições  | 26/02/2024     | 12/03/2025 | 📝    | 12/03/2025    |
-| Caique Vilareal    | Justificativa | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
-| Caique Vilareal    | Publico-Alvo | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
-| Felipe    | Especificação | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
-| Felipe    | Requisitos Funcionais | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
-| Felipe    | Requisitos não funcionais | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
+| Caique Vilarreal    | Justificativa | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
+| Caique Vilarreal    | Publico-Alvo | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
+| Filipe    | Especificação | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
+| Filipe    | Requisitos Funcionais | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
+| Filipe    | Requisitos não funcionais | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
+| Filipe    | Slides | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
 
 Legenda:
 - ✔️: terminado
