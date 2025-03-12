@@ -7,21 +7,13 @@ Com o avanço da tecnologia, o volume de informações a serem processadas diari
 
 Diante desses desafios, criamos o Anotaí, uma solução intuitiva e segura para otimizar a gestão do tempo. Com ele, buscamos facilitar a definição de prioridades e promover hábitos organizacionais mais eficientes, garantindo maior produtividade e equilíbrio na rotina.
 
-O grupo pode optar por fazer uso de ferramentas como Design Thinking, que permite uma visão completa do problema.
-
-> **Links úteis**:
-> - [Objetivos, problema de pesquisa e justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz certezas, suposições e dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
 ## Objetivos
+O principal objetivo do Anotaí é oferecer uma solução tecnológica que otimize a gestão de tarefas e a organização diária, aumentando a produtividade de seus usuários. A plataforma busca fornecer um ambiente intuitivo e acessível para o planejamento de rotinas, promovendo hábitos organizacionais mais eficientes. Especificamente, o Anotaí visa:
 
-Desenvolver um site para a criação de lembretes, e vamos oferecer aos usuários uma ferramenta digital intuitiva para organizar e otimizar as suas tarefas diárias.
-
-
- 
-> **Links úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Desenvolver uma interface simples e funcional para o gerenciamento de tarefas e compromissos.
+Facilitar a definição de prioridades e a criação de hábitos produtivos por meio de ferramentas personalizáveis.
+Oferecer recursos de organização e categorização para otimizar a experiência do usuário.
+Integrar funcionalidades que auxiliem na redução de distrações e no melhor aproveitamento do tempo.
 
 ## Justificativa
 
