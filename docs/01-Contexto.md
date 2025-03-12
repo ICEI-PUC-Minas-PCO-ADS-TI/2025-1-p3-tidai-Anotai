@@ -12,10 +12,10 @@ Diante desses desafios, criamos o Anotaí, uma solução intuitiva e segura para
 
 O principal objetivo do Anotaí é oferecer uma solução tecnológica que otimize a gestão de tarefas e a organização diária, aumentando a produtividade de seus usuários. A plataforma busca fornecer um ambiente intuitivo e acessível para o planejamento de rotinas, promovendo hábitos organizacionais mais eficientes. Especificamente, o Anotaí visa:
 
-Desenvolver uma interface simples e funcional para o gerenciamento de tarefas e compromissos.
-Facilitar a definição de prioridades e a criação de hábitos produtivos por meio de ferramentas personalizáveis.
-Oferecer recursos de organização e categorização para otimizar a experiência do usuário.
-Integrar funcionalidades que auxiliem na redução de distrações e no melhor aproveitamento do tempo.
+- Desenvolver uma interface simples e funcional para o gerenciamento de tarefas e compromissos.
+- Facilitar a definição de prioridades e a criação de hábitos produtivos por meio de ferramentas personalizáveis.
+- Oferecer recursos de organização e categorização para otimizar a experiência do usuário.
+- Integrar funcionalidades que auxiliem na redução de distrações e no melhor aproveitamento do tempo.
 
 ## Justificativa
 
