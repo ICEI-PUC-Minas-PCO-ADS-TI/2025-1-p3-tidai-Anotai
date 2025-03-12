@@ -3,7 +3,9 @@
 
 <span style="color:red">Pré-requisitos: <a href="02-Especificacao.md"> Especificação do projeto</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para abordar o problema. Inclua definições sobre os ambientes de trabalho utilizados pela equipe para desenvolver o projeto. Isso abrange a relação dos ambientes utilizados, a estrutura para a gestão do código-fonte, além da definição do processo e das ferramentas por meio dos quais a equipe se organiza (gestão de equipes).
+A equipe Anotaí adotou a metodologia ScrumBan, que combina a flexibilidade do Kanban com a estrutura do Scrum, permitindo um fluxo de trabalho ágil e eficiente. O Trello é utilizado para a gestão das tarefas, proporcionando uma visão clara do progresso, enquanto o GitHub é a plataforma escolhida para versionamento e documentação do código-fonte.
+
+Para a comunicação, a equipe utiliza WhatsApp e Microsoft Teams, garantindo acessibilidade e organização. O WhatsApp é usado para alinhamentos rápidos, enquanto o Teams facilita reuniões e compartilhamento de arquivos. A escolha dessas ferramentas foi baseada na familiaridade da equipe, otimizando a colaboração no desenvolvimento do projeto.
 
 ## Relação de ambientes de trabalho
 
