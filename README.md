@@ -12,11 +12,11 @@ Escreva um ou dois parágrafos resumindo o objetivo do seu projeto.
 
 * Gabriel Madureira Matos
 * Filipe Augusto dos Santos Silva
-* Nome completo do aluno 3
+* Caique Villarreal 
 
 ## Professor
 
-* Nome completo do(a) professor(a)
+* Kleber Jacques Ferreira de Souza
 
 ## Instruções de utilização
 
