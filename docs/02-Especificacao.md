@@ -1,26 +1,5 @@
 # Especificação do projeto
 
-<span style="color:red">Pré-requisitos: <a href="01-Contexto.md"> Documentação de contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto.
-
-## Personas
-
-Exemplo: _Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente por meio de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros._
-
-## Histórias de usuários
-
-Com base na análise das personas, foram identificadas as seguintes histórias de usuários:
-
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuários que são relevantes para o projeto da sua solução. As histórias de usuários consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuários por contexto, para facilitar consultas recorrentes a esta parte do documento.
-
 ## Requisitos
 
 As tabelas a seguir apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade dos requisitos, aplique uma técnica de priorização e detalhe como essa técnica foi aplicada.
@@ -71,9 +50,3 @@ O projeto está restrito aos itens apresentados na tabela a seguir.
 |003| O software deve ser responsivo e funcionar em dispositivos móveis e desktops.|
 |004| Não haverá suporte tecnico 24h.|
 |005|O sistema não pode exigir hardware avançado do usuário final para funcionar corretamente.|
-
-## Diagrama de casos de uso
-
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos. Ele utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. O diagrama contempla a fronteira do sistema e o detalhamento dos requisitos funcionais, com a indicação dos atores, casos de uso e seus relacionamentos.
-
-As referências abaixo irão auxiliá-lo na geração do artefato “diagrama de casos de uso”.
