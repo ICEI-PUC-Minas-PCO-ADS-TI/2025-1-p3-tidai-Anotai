@@ -7,6 +7,8 @@ A equipe Anotaí adotou a metodologia ScrumBan, que combina a flexibilidade do K
 
 Para a comunicação, a equipe utiliza WhatsApp e Microsoft Teams, garantindo acessibilidade e organização. O WhatsApp é usado para alinhamentos rápidos, enquanto o Teams facilita reuniões e compartilhamento de arquivos. A escolha dessas ferramentas foi baseada na familiaridade da equipe, otimizando a colaboração no desenvolvimento do projeto.
 
+E para desenvolvimento, utilizaremos java script e react no front-end, Node js para o back-end e MySql para o Banco de dados.
+
 ## Relação de ambientes de trabalho
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas. A relação dos ambientes com seus respectivos propósitos deverá ser apresentada em uma tabela que especifique e detalhe Ambiente, Plataforma e Link de Acesso. Defina também os ambientes e frameworks que serão utilizados no desenvolvimento de aplicações móveis.
@@ -84,4 +86,4 @@ Exemplo: os artefatos do projeto são desenvolvidos a partir de diversas platafo
 | Projeto de interface                | Figma                              |https://www.figma.com/design/CG0A4AGDgCua1hwyJFzW8G/lista-de-tarefas?node-id=0-1&m=dev&t=sc73mU8sUnCz3rcZ-1|
 | Gerenciamento do projeto            | GitHub Projects                    | http://....                            |
 | Hospedagem                          | Vercel                             | http://....                            |
- 
+                           
