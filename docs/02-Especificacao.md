@@ -48,33 +48,34 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Permitir o adastro de usuários   | ALTA |
+|RF-002| Login e autenticação   | AlTA |
+|RF-003| Permitir que o usuário crie metas   | AlTA |
+|RF-004| Permitir que o usuário defina as prioridades das metas  | MÉDIA |
+|RF-005| Organização por categorias   | MÉDIA |
+|RF-006| Permitir que o usuário defina prazos   | ALTA |
+|RF-007| Permitir que o usuário defina lembretes   | MÉDIA |
+|RF-008| Permitir que o usuário acompanhe o progresso   | BAIXA |
+|RF-009| Permitir que o usuário compartilhe metas   | MÉDIA |
+|RF-010| Integração com o calendário  | BAIXA |
+|RF-011| permitir que o usuário exclua metas   | MÉDIA |
+|RF-012| Marcar meta como concluida   | ALTA |
+|RF-013| Permitir o usuário criar seu perfil   | ALTA |
+|RF-014| Possibilitar com que o usuário selecione uma foto de perfil   | BAIXA |
+|RF-015| Permitir que o usuário mude informações do seu perfil   | MÉDIA |
 
 ### Requisitos não funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
+ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em dispositivos móveis | MÉDIA | 
 |RNF-002| Deve processar as requisições do usuário em no máximo 3 segundos |  BAIXA | 
+|RNF-003| Os dados do usuário devem ser protegidos por criptografia |  ALTA |
+|RNF-004| O sistema deve ficar disponível pelo menos 99% do tempo |  ALTA |
+|RNF-005| O software deve ser compativel com diferentes navegadores |  ALTA |
+|RNF-006| Os dados do usuário devem ser armazenados no banco de dados de forma segura |  ALTA |
 
-Com base nas histórias de usuários, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
-- [Requisitos funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos não funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-
-Lembre-se de que cada requisito deve corresponder a uma e somente uma característica-alvo da sua solução. Além disso, certifique-se de que todos os aspectos capturados nas histórias de usuários foram cobertos.
-
-> **Links úteis**:
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [Entenda o que são requisitos de software, a diferença entre requisito funcional e não funcional, e como identificar e documentar cada um deles](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 ## Restrições
 
@@ -85,7 +86,10 @@ O projeto está restrito aos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |001| O projeto deverá ser entregue até o final do semestre |
-|002| O custo total do projeto não deve exceder o orçamento definido       |
+|002| O custo total do projeto não deve exceder o orçamento definido|
+|003| O software deve ser responsivo e funcionar em dispositivos móveis e desktops.|
+|004| Não haverá suporte tecnico 24h.|
+|005|O sistema não pode exigir hardware avançado do usuário final para funcionar corretamente.|
 
 ## Diagrama de casos de uso
 

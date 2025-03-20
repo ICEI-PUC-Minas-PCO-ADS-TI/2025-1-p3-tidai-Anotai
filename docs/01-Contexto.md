@@ -1,46 +1,36 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Observando a crescente dificuldade na organização diária das pessoas, desenvolvemos o projeto Anotaí. Nosso objetivo é oferecer uma solução prática e acessível para indivíduos, trabalhadores e empreendedores, ajudando-os a estruturar melhor suas rotinas. Com isso, buscamos aumentar a produtividade, reduzir o estresse e melhorar a eficiência em realização de tarefas diárias, aumentando a produtividade no dia a dia.
 
 ## Problema
-Aqui, a equipe deve fornecer uma descrição detalhada do problema a ser resolvido. Não é o momento adequado para abordar questões técnicas relacionadas ao desenvolvimento da aplicação. O objetivo é compreender e comunicar de maneira precisa qual é o desafio ou necessidade que motiva a criação da aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
+Com o avanço da tecnologia, o volume de informações a serem processadas diariamente aumentou, impactando a produtividade e dificultando a organização. Além disso, a sobrecarga de tarefas, a ausência de métodos estruturados de planejamento e as constantes distrações, como redes sociais e notificações, comprometem a eficiência.
 
-O grupo pode optar por fazer uso de ferramentas como Design Thinking, que permite uma visão completa do problema.
-
-> **Links úteis**:
-> - [Objetivos, problema de pesquisa e justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz certezas, suposições e dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Diante desses desafios, criamos o Anotaí, uma solução intuitiva e segura para otimizar a gestão do tempo. Com ele, buscamos facilitar a definição de prioridades e promover hábitos organizacionais mais eficientes, garantindo maior produtividade e equilíbrio na rotina.
 
 ## Objetivos
 
-Aqui, você deve descrever os objetivos do trabalho, indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima.
+O principal objetivo do Anotaí é oferecer uma solução tecnológica que otimize a gestão de tarefas e a organização diária, aumentando a produtividade de seus usuários. A plataforma busca fornecer um ambiente intuitivo e acessível para o planejamento de rotinas, promovendo hábitos organizacionais mais eficientes. Especificamente, o Anotaí visa:
 
-Além disso, apresente alguns (pelo menos 3) objetivos específicos, dependendo de onde você pretende concentrar sua prática investigativa ou como deseja aprofundar seu trabalho.
- 
-> **Links úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+- Desenvolver uma interface simples e funcional para o gerenciamento de tarefas e compromissos.
+- Facilitar a definição de prioridades e a criação de hábitos produtivos por meio de ferramentas personalizáveis.
+- Oferecer recursos de organização e categorização para otimizar a experiência do usuário.
+- Integrar funcionalidades que auxiliem na redução de distrações e no melhor aproveitamento do tempo.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A crescente complexidade das demandas cotidianas e o aumento no volume de informações a serem processadas diariamente têm tornado a gestão eficiente do tempo um desafio significativo para muitas pessoas. De acordo com uma pesquisa da Acuity Training de 2022, 82% dos trabalhadores não utilizam um sistema eficaz de gerenciamento de tempo, o que impacta negativamente sua produtividade e bem-estar. 
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+A desorganização não afeta apenas a eficiência no trabalho, mas também tem consequências diretas na saúde mental. Estudos indicam que ambientes desorganizados podem aumentar os níveis de estresse e ansiedade, além de prejudicar a qualidade do sono e a motivação pessoal. 
 
-> **Links úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Diante desse cenário, o desenvolvimento do Anotaí justifica-se pela necessidade urgente de soluções que aliem tecnologia e práticas organizacionais para melhorar a produtividade e o bem-estar dos indivíduos. A plataforma busca oferecer ferramentas intuitivas para o gerenciamento de tarefas, promovendo hábitos organizacionais saudáveis e contribuindo para a eficiência no dia a dia.
+
+Além disso, a adoção de ferramentas tecnológicas para otimização do tempo tem se mostrado eficaz na melhoria da produtividade. Empresas que implementam tais ferramentas registraram um aumento de até 25% na eficiência de suas equipes, conforme destacado em estudos recentes
 
 ## Público-alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público-alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+O Anotaí abrange uma grande parcela de usuários, mais especificamente:
+- Estudantes: Pessoas que precisam gerenciar prazos de trabalhos, provas e outras atividades acadêmicas.
+- Profissionais: Trabalhadores autônomos e funcionários de empresas que desejam otimizar suas tarefas e compromissos.
+- Empreendedores e Pequenos Negócios: Donos de negócios que necessitam de uma ferramenta simples para planejar atividades, reuniões e metas.
+- Pessoas com Rotinas Agitadas: Indivíduos que enfrentam dificuldades na administração do tempo devido à grande quantidade de compromissos diários.
