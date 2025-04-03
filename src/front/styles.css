@@ -144,3 +144,92 @@ li button {
     color: #3266D7; /* Azul */
     font-size: 74px; /* Ajuste o tamanho conforme necessário */
 }
+
+.bi-person-plus {
+    color: #3266D7; /* Azul */
+    font-size: 80px;
+}
+
+.bi-person-check {
+    color: #3266D7; /* Azul */
+    font-size: 80px;
+}
+
+#sec-login{
+    width: 100%;
+    max-width: 100%;
+    padding: 100px;
+}
+
+#sec-login h1{
+    font-size: 55px;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.container2{
+    max-width: 80%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.container2 button{
+    border: none;
+    border-radius: 40px;
+    padding: 13px 60px;
+    color: #FFFFFF;
+    background-color: #3266D7;
+    cursor: pointer;
+}
+
+.elementos2 h3{
+    font-size: 30px;
+    padding: 22px 0;
+}
+
+#navegacao {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#navegacao ul {
+    display: flex;
+    gap: 23px;
+    list-style: none;
+}
+
+#navegacao li {
+    background-color: #3266D7;
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navegacao i {
+    color: #FFFFFF;
+    font-size: 42px;
+}
+
+.sla hr {
+    max-width: 80%;
+    height: 6px;
+    background-color: #3266D7;
+    border: none;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.sla p{
+    text-align: center;
+    color: #3266D7;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+footer{
+    padding: 100px 0;
+}
