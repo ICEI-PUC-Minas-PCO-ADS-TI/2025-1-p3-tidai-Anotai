@@ -92,6 +92,7 @@ li button {
 
 #sec-func{
     width: 100%;
+    margin-bottom: 200px;
 }
 
 #sec-func h1{
@@ -119,10 +120,16 @@ li button {
     margin-top: 27px;
 }
 
-.img{
+.img-infos{
     background-color: #FFFFFF;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 280px;
+    border-radius: 20px;
+}
+
+.img-infos img{
+    width: 100%;
+    height: 280px;
     border-radius: 20px;
 }
 
@@ -155,38 +162,66 @@ li button {
     font-size: 80px;
 }
 
+
 #sec-login{
-    width: 100%;
     max-width: 100%;
-    padding: 100px;
+    background-color: #2E5BBE;
 }
 
-#sec-login h1{
-    font-size: 55px;
-    text-align: center;
-    padding-bottom: 70px;
-}
-
-.container2{
-    max-width: 80%;
-    width: 80%;
+.elementos-login{
     display: flex;
     align-items: center;
 }
 
-.container2 button{
+.img-login{
+    background-color: #FFFFFF;
+    width: 43%;
+    height: 520px;
+}
+
+.img-login img{
+    width: 100%;
+    height: 520px;
+}
+
+.logar{
+    margin: 0 auto;
+}
+
+.txt-login h3{
+    font-size: 43px;
+    padding-bottom: 17px;
+}
+
+.txt-login hr{
+    width: 32%;
+    height: 3px;
+    background-color: #57D9A6;
     border: none;
-    border-radius: 40px;
-    padding: 13px 60px;
-    color: #FFFFFF;
-    background-color: #3266D7;
+}
+
+.txt-login p{
+    font-size: 19px;
+    padding-top: 48px;
+    opacity: 90%;
+}
+
+.button-login{
+    text-align: center;
+}
+
+.button-login button{
+    background-color: #FFFFFF;
+    color: #2E5BBE;
+    border: none;
+    border-radius: 5px;
+    height: 49px;
+    width: 31%;
+    margin: 40px 30px;
     cursor: pointer;
 }
 
-.elementos2 h3{
-    font-size: 30px;
-    padding: 22px 0;
-}
+/*footer*/
 
 #navegacao {
     display: flex;
