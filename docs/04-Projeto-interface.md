@@ -29,13 +29,28 @@ O diagrama de fluxo pode ser desenvolvido com “boxes” que possuem, intername
 
 São protótipos usados no design de interface para sugerir a estrutura de um site web e seu relacionamento entre suas páginas. Um wireframe web é uma ilustração que mostra o layout dos elementos fundamentais na interface.
 
+#### Tela Inicial:
 ![Tela inicial](images/tela-inicial-bf.png)
+
+#### Registrar-se:
 ![Registrar-se](images/Registrar-se-bf.png)
+
+#### Entrar:
 ![Entrar](images/Entrar-bf.png)
+
+#### Perfil:
 ![Perfil](images/perfil-bf.png)
+
+#### Home:
 ![Home](images/home-bf.png)
+
+#### Criação de Metas:
 ![Criação de matas](images/criar-tarefas-bf.png)
+
+#### Playlists de Metas:
 ![Playlist de Metas](images/Playlist-de-meta-bf.png)
+
+#### Meta:
 ![Meta](images/metas-bf.png)
  
 ## Interface do sistema
