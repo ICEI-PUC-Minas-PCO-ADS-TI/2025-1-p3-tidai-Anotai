@@ -29,19 +29,15 @@ O diagrama de fluxo pode ser desenvolvido com “boxes” que possuem, intername
 
 São protótipos usados no design de interface para sugerir a estrutura de um site web e seu relacionamento entre suas páginas. Um wireframe web é uma ilustração que mostra o layout dos elementos fundamentais na interface.
 
-![Exemplo de wireframe](images/wireframe.png)
+![Tela inicial](images/tela-inicial-bf.png)
+![Registrar-se](images/Registrar-se-bf.png)
+![Entrar](images/Entrar-bf.png)
+![Perfil](images/perfil-bf.png)
+![Home](images/home-bf.png)
+![Criação de matas](images/criar-tarefas-bf.png)
+![Playlist de Metas](images/Playlist-de-meta-bf.png)
+![Meta](images/metas-bf.png)
  
-> **Links úteis**:
-> - [Protótipos: baixa, média ou alta fidelidade?](https://medium.com/ladies-that-ux-br/prot%C3%B3tipos-baixa-m%C3%A9dia-ou-alta-fidelidade-71d897559135)
-> - [Protótipos vs wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
-
-
 ## Interface do sistema
 
 Visão geral da interação do usuário por meio das telas do sistema. 
