@@ -51,7 +51,7 @@ São protótipos usados no design de interface para sugerir a estrutura de um si
 ![Playlist de Metas](images/Playlist-de-meta-bf.png)
 
 #### Meta:
-![Meta](images/metas-bf.png)
+![Meta](images/Meta-bf.png)
  
 ## Interface do sistema
 
