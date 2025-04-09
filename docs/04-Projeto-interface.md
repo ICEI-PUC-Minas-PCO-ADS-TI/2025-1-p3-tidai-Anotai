@@ -29,53 +29,53 @@ O fluxo a seguir possui um fluxo que engloba todas as ações do usuário Padrã
 
 ## Wireframes
 
-#### Tela Inicial:
+### Tela Inicial:
 ![Tela inicial](images/tela-inicial-bf.png)
 
-#### Registrar-se:
+### Registrar-se:
 ![Registrar-se](images/Registrar-se-bf.png)
 
-#### Entrar:
+### Entrar:
 ![Entrar](images/Entrar-bf.png)
 
-#### Perfil:
+### Perfil:
 ![Perfil](images/perfil-bf.png)
 
-#### Home:
+### Home:
 ![Home](images/home-bf.png)
 
-#### Criação de Metas:
+### Criação de Metas:
 ![Criação de matas](images/criar-tarefas-bf.png)
 
-#### Playlists de Metas:
+### Playlists de Metas:
 ![Playlist de Metas](images/Playlist-de-meta-bf.png)
 
-#### Meta:
+### Meta:
 ![Meta](images/Meta-bf.png)
  
 ## Interface do sistema
 
 ### Tela Principal do Sistema
 
-Tela inicial Anotaí
+#### Tela inicial Anotaí
 ![Tela Inicial](images/wireframe/tela-inicial.png)
 
 ### Processo 1 
 
-Criação de Perfil
+#### Criação de Perfil
 ![Criar Perfil](images/wireframe/perfil.png)
 
 ### Processo 2
 
-Criação de Metas
+#### Criação de Metas
 ![Criação de metas](images/wireframe/criar-tarefas.png)
 
 ### Vizualização das Playlists
 
-Playlists de Metas
+#### Playlists de Metas
 ![Playlists de metas](images/wireframe/Playlist-de-meta.png)
 
 ### Vizualização de Metas
 
-Meta aberta
+#### Meta aberta
 ![Metas](images/wireframe/Meta.png)
