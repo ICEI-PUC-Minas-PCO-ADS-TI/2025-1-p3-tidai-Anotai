@@ -33,8 +33,6 @@ Quanto à gerência de issues, o projeto adota a seguinte convenção para etiqu
 
 ###  Divisão de papéis
 
-> Apresente a divisão de papéis entre os membros do grupo em cada Sprint. O desejável é que, em cada Sprint, o aluno assuma papéis diferentes na equipe. Siga o modelo do exemplo abaixo:
-
 #### Sprint 1
 - _Scrum master_: Gabriel Madureira
 - Protótipos: Gabriel Madureira
@@ -42,8 +40,6 @@ Quanto à gerência de issues, o projeto adota a seguinte convenção para etiqu
 - Documentação: Gabriel Madureira, Caique Vilareal, Felipe
 
 ###  Quadro de tarefas
-
-> Apresente a divisão de tarefas entre os membros do grupo e o acompanhamento da execução, conforme o exemplo abaixo.
 
 #### Sprint 1
 
@@ -69,15 +65,7 @@ Legenda:
 - ⌛: atrasado
 - ❌: não iniciado
 
-### Processo
-
-Coloque informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo deverá fazer uso do recurso de gerenciamento de projeto oferecido pelo GitHub, que permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
-
 ### Ferramentas
-
-Liste todas as ferramentas que foram empregadas no projeto, justificando a escolha delas, sempre que possível.
-
-Exemplo: os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
 | Ambiente                            | Plataforma                         | Link de acesso                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
