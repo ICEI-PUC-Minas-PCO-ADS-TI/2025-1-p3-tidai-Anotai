@@ -64,7 +64,7 @@ li button {
 
 #sec-melhore {
     width: 100%;
-    height: 500px;
+    height: 700px;
     background-color: #6F6F6F;
     display: flex;
     justify-content: center;
@@ -86,8 +86,8 @@ li button {
 }
 
 .bi {
-    font-size: 70px; /* Ajusta o tamanho */
-    color: #3266D7; /* Define a cor azul */
+    font-size: 70px; 
+    color: #3266D7;
 }
 
 #sec-func{
@@ -99,6 +99,8 @@ li button {
     text-align: center;
     padding: 100px 0;
     font-size: 50px;
+    margin-bottom: 60px;
+    margin-top: 80px;
 }
 
 .container{
@@ -108,7 +110,7 @@ li button {
     align-items: center;
     padding: 30px 10px;
     margin: 0 auto;
-    margin-bottom: 60px;
+    margin-bottom: 200px;
 }
 
 .elementos .titulo{
@@ -139,26 +141,26 @@ li button {
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
-    margin-bottom: 60px;
+    margin-bottom: 200px;
 }
 
 .bi-eye {
-    color: #3266D7; /* Azul */
-    font-size: 88px; /* Ajuste o tamanho conforme necessário */
+    color: #3266D7; 
+    font-size: 88px; 
 }
 
 .bi-globe {
-    color: #3266D7; /* Azul */
-    font-size: 74px; /* Ajuste o tamanho conforme necessário */
+    color: #3266D7; 
+    font-size: 74px; 
 }
 
 .bi-person-plus {
-    color: #3266D7; /* Azul */
+    color: #3266D7; 
     font-size: 80px;
 }
 
 .bi-person-check {
-    color: #3266D7; /* Azul */
+    color: #3266D7; 
     font-size: 80px;
 }
 
@@ -166,6 +168,7 @@ li button {
 #sec-login{
     max-width: 100%;
     background-color: #2E5BBE;
+    margin-bottom: 80px;
 }
 
 .elementos-login{
@@ -176,12 +179,13 @@ li button {
 .img-login{
     background-color: #FFFFFF;
     width: 43%;
-    height: 520px;
+    height: 700px;
 }
 
 .img-login img{
     width: 100%;
-    height: 520px;
+    height: 700px;
+    border: none;
 }
 
 .logar{
@@ -202,7 +206,7 @@ li button {
 
 .txt-login p{
     font-size: 19px;
-    padding-top: 48px;
+    padding-top: 63px;
     opacity: 90%;
 }
 
@@ -217,7 +221,7 @@ li button {
     border-radius: 5px;
     height: 49px;
     width: 31%;
-    margin: 40px 30px;
+    margin: 70px 30px;
     cursor: pointer;
 }
 
