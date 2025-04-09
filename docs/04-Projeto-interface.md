@@ -58,3 +58,28 @@ São protótipos usados no design de interface para sugerir a estrutura de um si
 Visão geral da interação do usuário por meio das telas do sistema. 
 
 > Apresente as principais interfaces da plataforma em sua versão final.
+
+### Tela Principal do Sistema
+
+Tela inicial Anotaí
+![Tela Inicial](images/wireframe/tela-inicial.png)
+
+### Processo 1 
+
+Criação de Perfil
+![Criar Perfil](images/wireframe/perfil.png)
+
+### Processo 2
+
+Criação de Metas
+![Criação de metas](images/wireframe/criar-tarefas.png)
+
+### Vizualização das Playlists
+
+Playlists de Metas
+![Playlists de metas](images/wireframe/Playlist-de-meta.png)
+
+### Vizualização de Metas
+
+Meta aberta
+![Metas](images/wireframe/Meta.png)
