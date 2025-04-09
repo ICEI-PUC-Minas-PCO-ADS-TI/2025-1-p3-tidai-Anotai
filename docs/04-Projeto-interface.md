@@ -13,21 +13,21 @@ O projeto de fluxo de usuário, visa permitir a navegação em busca de playlist
 
 ![User Flow](images/userflow.png)
 
-### Diagrama de fluxo
+## Diagrama de fluxo
 
-O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema interativo, muitas vezes sem a necessidade de desenhar o design das telas da interface. Isso permite que o design das interações seja bem planejado e tenha impacto na qualidade do design do wireframe interativo que será desenvolvido logo em seguida.
+Os diagramas a seguir representam o fluxo de navegação dos usuários no sistema Anotaí, contemplando dois perfis distintos: usuários padrão e usuários avançados, com percursos distintos que se complementam dentro do sistema.
 
-O diagrama de fluxo pode ser desenvolvido com “boxes” que possuem, internamente, a indicação dos principais elementos de interface — tais como menus e acessos — e funcionalidades, como editar, pesquisar, filtrar e configurar, além da conexão entre esses boxes a partir do processo de interação.
+### Usuário Padrão:
 
-![Exemplo de diagrama de fluxo](images/diagrama_fluxo.jpg)
+O fluxo a seguir envolve funcionalidades essenciais da plataforma, como realizar cadastro, efetuar login, podendo criar metas individuais, além de acompanhar seu progresso.
+![Usuário Padrão](images/fluxo-usuario-p.png) 
 
-> **Links úteis**:
-> - [Como criar um diagrama de fluxo de usuário](https://www.lucidchart.com/blog/how-to-make-a-user-flow-diagram)
-> - [Fluxograma online: seis sites para fazer gráfico sem instalar nada](https://www.techtudo.com.br/listas/2019/03/fluxograma-online-seis-sites-para-fazer-grafico-sem-instalar-nada.ghtml)
+### Usuário Avançado:
+
+O fluxo a seguir possui um fluxo que engloba todas as ações do usuário Padrão, com a adição de funcionalidades de publicação de playlists de metas, podendo monetizar-las ou não.
+![Usuário Avançado](images/fluxo-usuario-m.png)
 
 ## Wireframes
-
-São protótipos usados no design de interface para sugerir a estrutura de um site web e seu relacionamento entre suas páginas. Um wireframe web é uma ilustração que mostra o layout dos elementos fundamentais na interface.
 
 #### Tela Inicial:
 ![Tela inicial](images/tela-inicial-bf.png)
@@ -54,10 +54,6 @@ São protótipos usados no design de interface para sugerir a estrutura de um si
 ![Meta](images/Meta-bf.png)
  
 ## Interface do sistema
-
-Visão geral da interação do usuário por meio das telas do sistema. 
-
-> Apresente as principais interfaces da plataforma em sua versão final.
 
 ### Tela Principal do Sistema
 
