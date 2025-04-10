@@ -10,7 +10,8 @@ O site do Anotaí foi desenvolvido com o objetivo de oferecer uma experiência p
 
 ## Exemplos de utilização nas páginas:
 
-![Primeira seção da página inicial]![tela inicial](https://github.com/user-attachments/assets/5b8e9c63-4a7d-4147-ac3c-03b0ac4374e8)
+## Primeira seção da página inicial 
+![tela inicial](https://github.com/user-attachments/assets/5b8e9c63-4a7d-4147-ac3c-03b0ac4374e8)
 
 A página apresenta a cor de fundo de código `#3266D7`, com itens mais claros, proporcionando um destaque maior.
 
@@ -20,7 +21,7 @@ A página apresenta a cor de fundo de código `#3266D7`, com itens mais claros, 
 -Ao centro, há uma frase de boas-vindas e um botão de chamada para ação (CTA), incentivando o usuário a acessar ou criar uma conta.
 
 
-![Página de Cadastro]![Registrar-se](https://github.com/user-attachments/assets/a8734316-5bfd-47d8-bbc8-949fc0760cc5)
+![Registrar-se](https://github.com/user-attachments/assets/a8734316-5bfd-47d8-bbc8-949fc0760cc5)
 
 A página apresenta a cor de fundo de código `#3266D7`, chamando mais atenção para os itens citados.
 
@@ -29,7 +30,8 @@ A página apresenta a cor de fundo de código `#3266D7`, chamando mais atenção
 -Botão de "Cadastrar" em verde vibrante, centralizado abaixo do formulário;
 -Um link ao final da página permite ao usuário voltar para a tela de login, caso já tenha uma conta.
 
-![Página de Login]![Entrar](https://github.com/user-attachments/assets/aca67758-7034-4a0e-a248-d4e7746482ad)
+## Página de Login
+![Entrar](https://github.com/user-attachments/assets/aca67758-7034-4a0e-a248-d4e7746482ad)
 
 A página de login mantém a identidade visual do site, com foco nos campos essenciais:
 
@@ -37,7 +39,8 @@ A página de login mantém a identidade visual do site, com foco nos campos esse
 -Botão de "Entrar" em destaque, posicionado logo abaixo dos campos;
 -Um link direcionando para a página de cadastro está disponível logo abaixo do botão.
 
-![Página de Perfil]![Personalisar]![perfil](https://github.com/user-attachments/assets/893a710e-9616-40e0-819f-ff941b343551)
+## Página de Perfil
+![Personalisar]![perfil](https://github.com/user-attachments/assets/893a710e-9616-40e0-819f-ff941b343551)
 
 A tela de perfil apresenta os dados pessoais do usuário de forma organizada:
 
@@ -45,8 +48,8 @@ A tela de perfil apresenta os dados pessoais do usuário de forma organizada:
 -Possibilidade de alterar a foto de perfil;
 -Botão de "Salvar alterações", que aparece abaixo do formulário, facilitando a atualização dos dados.
 
-![Página Principal]![(Home)]!![home](https://github.com/user-attachments/assets/257c154f-8fc9-4cf6-8351-44aba4277cdf)
-
+## Página Principal
+![home](https://github.com/user-attachments/assets/257c154f-8fc9-4cf6-8351-44aba4277cdf)
 
 Após o login, o usuário é direcionado à tela principal da aplicação:
 
@@ -54,7 +57,8 @@ Após o login, o usuário é direcionado à tela principal da aplicação:
 -O conteúdo principal exibe as tarefas criadas, com um layout de cartões ou lista;
 -Um botão de "Criar nova tarefa" fica visível e acessível, facilitando o fluxo de criação.
 
-![Página de Criação de Tarefas]!![criar tarefas](https://github.com/user-attachments/assets/a4ec1d7f-6f9a-4f9f-ab07-4308666b2785)
+## Página de Criação de Tarefas
+![criar tarefas](https://github.com/user-attachments/assets/a4ec1d7f-6f9a-4f9f-ab07-4308666b2785)
 
 Essa página possui um formulário limpo e direto para o usuário cadastrar novas tarefas:
 
@@ -62,7 +66,8 @@ Essa página possui um formulário limpo e direto para o usuário cadastrar nova
 -O botão de "Salvar" tem cor verde e aparece abaixo dos campos;
 -O botão de "Cancelar" também está disponível para voltar à tela anterior sem salvar.
 
-![Página de Criação de Metas]!![criar-metas](https://github.com/user-attachments/assets/8ef386d0-c4fe-4ebb-bcb1-4838830feea1)
+## Página de Criação de Metas
+![criar-metas](https://github.com/user-attachments/assets/8ef386d0-c4fe-4ebb-bcb1-4838830feea1)
 
 Permite cadastrar uma nova meta com imagem, categoria, prioridade e anexar arquivos relacionados
 
@@ -72,7 +77,8 @@ Permite cadastrar uma nova meta com imagem, categoria, prioridade e anexar arqui
 -Um botão azul finaliza a ação com o texto "Concluído";
 -O rodapé mantém o padrão com redes sociais e direitos reservados.
 
-![Página da Playlist]!![Playlist de meta](https://github.com/user-attachments/assets/0a7ae263-b098-479f-9b3e-217d4d54756d)
+## Página da Playlist
+![Playlist de meta](https://github.com/user-attachments/assets/0a7ae263-b098-479f-9b3e-217d4d54756d)
 
 Exibe os detalhes da playlist com suas tarefas, permitindo interações e visualização de outras playlists em destaque.
 
@@ -83,7 +89,8 @@ Exibe os detalhes da playlist com suas tarefas, permitindo interações e visual
 -Abaixo, são exibidas playlists em destaque com avaliações representadas por estrelas;
 -O rodapé apresenta os ícones de redes sociais e os direitos reservados do projeto.
 
-![Página de Visualização da Meta]!![Meta](https://github.com/user-attachments/assets/36ba42e5-eb22-4920-8b9d-22c8455966e4)
+## Página de Visualização da Meta
+![Meta](https://github.com/user-attachments/assets/36ba42e5-eb22-4920-8b9d-22c8455966e4)
 
 Apresenta todas as informações da meta cadastrada, com descrição detalhada e arquivos anexados.
 
