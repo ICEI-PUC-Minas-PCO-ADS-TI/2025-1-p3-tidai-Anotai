@@ -71,7 +71,7 @@ Legenda:
 
 #### Sprint 2
 
-Atualizado em: 12/03/2025
+Atualizado em: 09/04/2025
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
