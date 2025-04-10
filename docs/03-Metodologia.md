@@ -51,17 +51,21 @@ Atualizado em: 12/03/2025
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| Gabriel Madureira    | Introdução | 05/03/2025     | 12/03/2025 | ✔️    | 12/03/2025      |
-| Gabriel Madureira    | Problemas    | 05/03/2025     | 12/03/2025 | ✔️    | 12/03/2025     |
-| Gabriel Madureira    | Objetivos | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
-| Gabriel Madureira    | Wireframes  | 26/02/2024     | 09/04/2025 | 📝    |     |
-| Gabriel Madureira    | Restrições  | 26/02/2024     | 12/03/2025 | 📝    | 12/03/2025    |
-| Caique Vilarreal    | Justificativa | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
-| Caique Vilarreal    | Publico-Alvo | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
-| Filipe    | Especificação | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
-| Filipe    | Requisitos Funcionais | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
-| Filipe    | Requisitos não funcionais | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
-| Filipe    | Slides | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
+| Gabriel Madureira | Introdução   | 05/03/2025     | 12/03/2025 | ✔️    | 12/03/2025      |
+| Gabriel Madureira | Problemas    | 05/03/2025     | 12/03/2025 | ✔️    | 12/03/2025     |
+| Gabriel Madureira | Objetivos    | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
+| Gabriel Madureira | Wireframes   | 26/02/2024     | 09/04/2025 | 📝    |     |
+| Gabriel Madureira | Restrições   | 26/02/2024     | 12/03/2025 | 📝    | 12/03/2025    |
+| Caique Vilarreal  | Justificativa| 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
+| Caique Vilarreal  | Publico-Alvo | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
+| Filipe            | Especificação| 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
+| Filipe            | Requisitos Funcionais| 05/03/2025   | 12/03/2025 | ✔️     | 12/03/2025    |
+| Filipe            | Requisitos não funcionais | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
+| Filipe            | Slides | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025   |
+| Caique VIllarreal | Diagrama de Fluxo de usuarios | 05/03/2025 | 08/04/2025| ✔️  | 08/04/2025|
+| Gabriel Madureira | Wireframe | 05/03/2025 | 09/04/2025 |✔️ | 09/04/2025|
+| Gabriel Madureira | User Flow | 05/03/2025 | 09/04/2025 |✔️ | 09/04/2025|
+| Felipe            | Templete padrão| 05/03/2025 | 09/04/2025 |✔️ | 09/04/2025
 
 Legenda:
 - ✔️: terminado
