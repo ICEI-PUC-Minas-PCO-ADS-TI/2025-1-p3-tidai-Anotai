@@ -18,7 +18,7 @@ A página apresenta a cor de fundo de código `#3266D7`, com itens mais claros, 
 - A tela inicial recebe o usuário com uma saudação amigável e clara. O fundo escuro cria contraste com os textos em branco e botões verdes, oferecendo um visual limpo.;
 - O logotipo está localizado na parte superior esquerda ;
 - No topo direito, encontram-se os botões de "Entrar" e "Registrar-se";
-- Ao centro, há uma frase de boas-vindas e um botão de chamada para ação (CTA), incentivando o usuário a acessar ou criar uma conta. ;
+- Ao centro, há uma frase de boas-vindas e um botão de chamada para ação (CTA), incentivando o usuário a acessar ou criar uma conta. 
 
 
 ![Registrar-se](https://github.com/user-attachments/assets/a8734316-5bfd-47d8-bbc8-949fc0760cc5)
@@ -28,7 +28,7 @@ A página apresenta a cor de fundo de código `#3266D7`, chamando mais atenção
 - A tela de registro apresenta um formulário com campos básicos para criar uma nova conta;
 - Campos de entrada para nome, e-mail e senha;
 - Botão de "Cadastrar" em verde vibrante, centralizado abaixo do formulário;
-- Um link ao final da página permite ao usuário voltar para a tela de login, caso já tenha uma conta;
+- Um link ao final da página permite ao usuário voltar para a tela de login, caso já tenha uma conta.
 
 ## Página de Login
 ![Entrar](https://github.com/user-attachments/assets/aca67758-7034-4a0e-a248-d4e7746482ad)
@@ -37,10 +37,10 @@ A página de login mantém a identidade visual do site, com foco nos campos esse
 
 - Campos de entrada para e-mail e senha;
 - Botão de "Entrar" em destaque, posicionado logo abaixo dos campos;
-- Um link direcionando para a página de cadastro está disponível logo abaixo do botão;
+- Um link direcionando para a página de cadastro está disponível logo abaixo do botão.
 
 ## Página de Perfil
-![Personalisar]![perfil](https://github.com/user-attachments/assets/893a710e-9616-40e0-819f-ff941b343551)
+![perfil](https://github.com/user-attachments/assets/893a710e-9616-40e0-819f-ff941b343551)
 
 A tela de perfil apresenta os dados pessoais do usuário de forma organizada:
 
@@ -55,7 +55,7 @@ Após o login, o usuário é direcionado à tela principal da aplicação:
 
 - Um menu lateral fixa o acesso às seções: Tarefas, Perfil e Sair;
 - O conteúdo principal exibe as tarefas criadas, com um layout de cartões ou lista;
-- Um botão de "Criar nova tarefa" fica visível e acessível, facilitando o fluxo de criação;
+- Um botão de "Criar nova tarefa" fica visível e acessível, facilitando o fluxo de criação.
 
 ## Página de Criação de Tarefas
 ![criar tarefas](https://github.com/user-attachments/assets/a4ec1d7f-6f9a-4f9f-ab07-4308666b2785)
@@ -64,7 +64,7 @@ Essa página possui um formulário limpo e direto para o usuário cadastrar nova
 
 - Campos para título, descrição, data de entrega e prioridade;
 - O botão de "Salvar" tem cor verde e aparece abaixo dos campos;
-- O botão de "Cancelar" também está disponível para voltar à tela anterior sem salvar;
+- O botão de "Cancelar" também está disponível para voltar à tela anterior sem salvar.
 
 ## Página de Criação de Metas
 ![criar-metas](https://github.com/user-attachments/assets/8ef386d0-c4fe-4ebb-bcb1-4838830feea1)
@@ -75,7 +75,7 @@ Permite cadastrar uma nova meta com imagem, categoria, prioridade e anexar arqui
 - Do lado direito, é possível nomear a meta, descrever o que fazer, e anexar arquivos relacionados;
 - A seção de arquivos permite adicionar nome e descrição para cada anexo;
 - Um botão azul finaliza a ação com o texto "Concluído";
-- O rodapé mantém o padrão com redes sociais e direitos reservados;
+- O rodapé mantém o padrão com redes sociais e direitos reservados.
 
 ## Página da Playlist
 ![Playlist de meta](https://github.com/user-attachments/assets/0a7ae263-b098-479f-9b3e-217d4d54756d)
