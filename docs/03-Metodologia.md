@@ -75,11 +75,13 @@ Atualizado em: 12/03/2025
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| Caique VIllarreal | Diagrama de Fluxo de usuarios | 05/03/2025 | 08/04/2025| ✔️  | 08/04/2025|
-| Caique VIllarreal | Quadro tarefas | 05/03/2025 | 08/04/2025| ✔️  | 08/04/2025|
+| Caique Villarreal | Diagrama de Fluxo de usuarios | 05/03/2025 | 08/04/2025| ✔️  | 08/04/2025|
+| Caique Villarreal | Quadro tarefas | 05/03/2025 | 08/04/2025| ✔️  | 08/04/2025|
+| Caique Villarreal | Auxilio template padrão | 05/03/2025 | 08/04/2025| ✔️  | 08/04/2025|
 | Gabriel Madureira | Wireframe | 05/03/2025 | 09/04/2025 |✔️ | 09/04/2025|
 | Gabriel Madureira | User Flow | 05/03/2025 | 09/04/2025 |✔️ | 09/04/2025|
-| Gabriel Madureira | Codigo frot | 05/03/2025 | 09/04/2025 |✔️ | 09/04/2025|
+| Gabriel Madureira | Codigo front | 05/03/2025 | 09/04/2025 |✔️ | 09/04/2025|
+| Gabriel Madureira | Gestão de tarefas | 05/03/2025 | 09/04/2025 |✔️ | 09/04/2025|
 | Filipe  Augusto  | Templete padrão| 09/04/2025 | 09/04/2025 |✔️ | 09/04/2025|
 | Filipe  Augusto  | Slides| 05/04/2025 | 09/04/2025 |✔️ | 09/04/2025|
 | Filipe  Augusto  | Codigo front | 05/03/2025 | 09/04/2025 |✔️ | 09/04/2025|
