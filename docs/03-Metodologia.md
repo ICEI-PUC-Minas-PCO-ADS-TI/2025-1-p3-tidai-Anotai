@@ -62,10 +62,6 @@ Atualizado em: 12/03/2025
 | Filipe            | Requisitos Funcionais| 05/03/2025   | 12/03/2025 | ✔️     | 12/03/2025    |
 | Filipe            | Requisitos não funcionais | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
 | Filipe            | Slides | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025   |
-| Caique VIllarreal | Diagrama de Fluxo de usuarios | 05/03/2025 | 08/04/2025| ✔️  | 08/04/2025|
-| Gabriel Madureira | Wireframe | 05/03/2025 | 09/04/2025 |✔️ | 09/04/2025|
-| Gabriel Madureira | User Flow | 05/03/2025 | 09/04/2025 |✔️ | 09/04/2025|
-| Felipe            | Templete padrão| 05/03/2025 | 09/04/2025 |✔️ | 09/04/2025
 
 Legenda:
 - ✔️: terminado
