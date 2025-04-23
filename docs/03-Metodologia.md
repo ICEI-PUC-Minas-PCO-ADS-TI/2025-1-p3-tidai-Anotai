@@ -33,6 +33,8 @@ Quanto à gerência de issues, o projeto adota a seguinte convenção para etiqu
 
 ###  Divisão de papéis
 
+> Apresente a divisão de papéis entre os membros do grupo em cada Sprint. O desejável é que, em cada Sprint, o aluno assuma papéis diferentes na equipe. Siga o modelo do exemplo abaixo:
+
 #### Sprint 1
 - _Scrum master_: Gabriel Madureira
 - Protótipos: Gabriel Madureira
@@ -41,23 +43,25 @@ Quanto à gerência de issues, o projeto adota a seguinte convenção para etiqu
 
 ###  Quadro de tarefas
 
+> Apresente a divisão de tarefas entre os membros do grupo e o acompanhamento da execução, conforme o exemplo abaixo.
+
 #### Sprint 1
 
 Atualizado em: 12/03/2025
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| Gabriel Madureira    | Introdução | 05/03/2025     | 12/03/2025 | ✔️    | 12/03/2025      |
-| Gabriel Madureira    | Problemas    | 05/03/2025     | 12/03/2025 | ✔️    | 12/03/2025     |
-| Gabriel Madureira    | Objetivos | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
-| Gabriel Madureira    | Wireframes  | 26/02/2024     | 09/04/2025 | 📝    |     |
-| Gabriel Madureira    | Restrições  | 26/02/2024     | 12/03/2025 | 📝    | 12/03/2025    |
-| Caique Vilarreal    | Justificativa | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
-| Caique Vilarreal    | Publico-Alvo | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
-| Filipe    | Especificação | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
-| Filipe    | Requisitos Funcionais | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
-| Filipe    | Requisitos não funcionais | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
-| Filipe    | Slides | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
+| Gabriel Madureira | Introdução   | 05/03/2025     | 12/03/2025 | ✔️    | 12/03/2025      |
+| Gabriel Madureira | Problemas    | 05/03/2025     | 12/03/2025 | ✔️    | 12/03/2025     |
+| Gabriel Madureira | Objetivos    | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
+| Gabriel Madureira | Wireframes   | 26/02/2024     | 09/04/2025 | 📝    |     |
+| Gabriel Madureira | Restrições   | 26/02/2024     | 12/03/2025 | 📝    | 12/03/2025    |
+| Caique Vilarreal  | Justificativa| 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
+| Caique Vilarreal  | Publico-Alvo | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
+| Filipe            | Especificação| 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
+| Filipe            | Requisitos Funcionais| 05/03/2025   | 12/03/2025 | ✔️     | 12/03/2025    |
+| Filipe            | Requisitos não funcionais | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025    |
+| Filipe            | Slides | 05/03/2025     | 12/03/2025 | ✔️     | 12/03/2025   |
 
 Legenda:
 - ✔️: terminado
@@ -65,7 +69,39 @@ Legenda:
 - ⌛: atrasado
 - ❌: não iniciado
 
+#### Sprint 2
+
+Atualizado em: 09/04/2025
+
+| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
+| Caique Villarreal | Diagrama de Fluxo de usuarios | 05/03/2025 | 08/04/2025| ✔️  | 08/04/2025|
+| Caique Villarreal | Quadro tarefas | 05/03/2025 | 08/04/2025| ✔️  | 08/04/2025|
+| Caique Villarreal | Auxilio template padrão | 05/03/2025 | 08/04/2025| ✔️  | 08/04/2025|
+| Gabriel Madureira | Wireframe | 05/03/2025 | 09/04/2025 |✔️ | 09/04/2025|
+| Gabriel Madureira | User Flow | 05/03/2025 | 09/04/2025 |✔️ | 09/04/2025|
+| Gabriel Madureira | Codigo front | 05/03/2025 | 09/04/2025 |✔️ | 09/04/2025|
+| Gabriel Madureira | Gestão de tarefas | 05/03/2025 | 09/04/2025 |✔️ | 09/04/2025|
+| Filipe  Augusto  | Templete padrão| 09/04/2025 | 09/04/2025 |✔️ | 09/04/2025|
+| Filipe  Augusto  | Slides| 05/04/2025 | 09/04/2025 |✔️ | 09/04/2025|
+| Filipe  Augusto  | Codigo front | 05/03/2025 | 09/04/2025 |✔️ | 09/04/2025|
+| Filipe  Augusto  | Quadro tarefas | 05/03/2025 | 09/04/2025 |✔️ | 09/04/2025|
+
+Legenda:
+- ✔️: terminado
+- 📝: em execução
+- ⌛: atrasado
+- ❌: não iniciado
+
+### Processo
+
+Coloque informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo deverá fazer uso do recurso de gerenciamento de projeto oferecido pelo GitHub, que permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+
 ### Ferramentas
+
+Liste todas as ferramentas que foram empregadas no projeto, justificando a escolha delas, sempre que possível.
+
+Exemplo: os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
 | Ambiente                            | Plataforma                         | Link de acesso                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
