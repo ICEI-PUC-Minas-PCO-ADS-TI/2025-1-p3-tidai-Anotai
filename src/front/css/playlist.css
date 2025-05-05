@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+span {
+    color: #3266D7;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2C2C2C;
+    color: #FFFFFF;
+}
+
+header {
+    padding: 40px;
+}
+
+header>.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header nav.menu-desktop a:hover {
+    color: #fff;
+    transform: scale(1.05);
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav.menu-desktop ul li {
+    display: inline-block;
+    padding: 0 30px;
+    font-size: 18px;
+}
+
+.btn-conta button {
+    color: #FFFFFF;
+    padding: 13px 65px;
+    font-size: 17px;
+    font-weight: 100;
+    background-color: #3266D7;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+button:hover,
+form .btn-enviar input:hover {
+    box-shadow: 0px 0px 8px #3266D7;
+    transform: scale(1.05);
+}
+
+.logo img {
+    width: 35%;
+    height: 100%;
+    mix-blend-mode: lighten;
+}
+
+/*HEAFER-FIM*/
+
+#container-cima{
+    max-width: 100%;
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-playlist{
+    width: 400px;
+    height: 400px;
+    background-color: #FFFFFF;
+}
+
+#container-cima h1{
+    font-size: 70px;
+    margin-bottom: 40px;
+}
+
+#perfil{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.img-perfil{
+    width: 40px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 50%      ;
+}
+
+#container-cima p{
+    font-size: 20px;
+}
+
+#container-meio{
+    max-width: 100%;
+    padding: 0 10%;
+    margin: 50px 0;
+}
+
+#sec-meio{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+#container-meio i{
+    color: #3266D7;
+    font-size: 35px;
+}
+
+#container-meio hr{
+    opacity: 20%;
+}
+
+#icones{
+    display: flex;
+    gap: 20px;
+}
+
+#container-baixo{
+    max-width: 100%;
+    padding: 0  10%;
+    margin-bottom: 50px;
+}
+
+.metas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.metas:hover{
+    background-color: rgba(248, 248, 248, 0.08);
+    box-shadow: 0px 0px 10px rgba(248, 248, 248, 0.08);
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.img-meta{
+    width: 60px;
+    height: 60px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+
+.metas p{
+    font-size: 17px;
+}
+
+.metas i{
+    font-size: 25px;
+    color: #3266D7;
+}
+
+/* PLAYLISTS EM DESTAQUE */
+
+#destaques{
+    padding: 0 11%;
+}
+
+#destaques h1{
+    padding-bottom: 50px;
+}
+
+.carrossel-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    max-width: calc(420px * 3 + 20px * 2);
+    /* 3 cards + 2 gaps */
+    margin: 0 auto;
+}
+
+/* Área que segura os cards */
+.destaques {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    /* Impede que mostre partes dos próximos cards */
+    scroll-behavior: smooth;
+    width: calc(420px * 3 + 20px * 2);
+    /* Exatamente 3 cards visíveis */
+}
+
+/* Estilo dos cards de destaque */
+.play-destaque {
+    background-color: #FFFFFF;
+    width: 420px;
+    min-width: 420px;
+    height: 300px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    flex-shrink: 0;
+}
+
+.img-play {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 100%;
+    height: 245px;
+    background-color: #ccc;
+    /* opcional para visual */
+}
+
+.txt-play {
+    background-color: #6F6F6F;
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.txt-play p {
+    margin-left: 30px;
+}
+
+.estrelas {
+    background-color: #FFFFFF;
+    width: 100px;
+    height: 23px;
+    margin-right: 30px;
+}
+
+
+/* PLAYLISTS EM DESTAQUE - FIM */
+
+/*FOOTER*/
+
+#navegacao {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#navegacao ul {
+    display: flex;
+    gap: 23px;
+    list-style: none;
+}
+
+#navegacao li {
+    background-color: #3266D7;
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navegacao i {
+    color: #FFFFFF;
+    font-size: 42px;
+}
+
+.sla hr {
+    max-width: 80%;
+    height: 6px;
+    background-color: #3266D7;
+    border: none;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.sla p {
+    text-align: center;
+    color: #3266D7;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+footer {
+    padding: 100px 0;
+}

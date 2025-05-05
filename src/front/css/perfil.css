@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+span {
+    color: #3266D7;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2C2C2C;
+    color: #FFFFFF;
+}
+
+header {
+    padding: 40px;
+}
+
+header>.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header nav.menu-desktop a:hover {
+    color: #fff;
+    transform: scale(1.05);
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav.menu-desktop ul li {
+    display: inline-block;
+    padding: 0 30px;
+    font-size: 18px;
+}
+
+.btn-conta button {
+    color: #FFFFFF;
+    padding: 13px 65px;
+    font-size: 17px;
+    font-weight: 100;
+    background-color: #3266D7;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+button:hover,
+form .btn-enviar input:hover {
+    box-shadow: 0px 0px 8px #3266D7;
+    transform: scale(1.05);
+}
+
+.logo img {
+    width: 35%;
+    height: 100%;
+    mix-blend-mode: lighten;
+}
+
+/*HEAFER-FIM*/
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    position: relative;
+    top: -50px; 
+    z-index: 2;
+}
+
+#papel-parede {
+    width: 100%;
+    height: 400px;
+    background-color: #7c7c7c;
+    position: relative;
+    z-index: 1;
+}
+
+#sec-esquerda {
+    width: 28%;
+    height: 100%;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 40px;
+    padding: 40px;
+    text-align: center;
+    background-color: #2C2C2C;
+}
+
+#img-perfil{
+    background-color: #7c7c7c;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#nome{
+    font-size: 25px;
+    margin-top: 23px;
+}
+
+#nome-perfil{
+    opacity: 40%;
+    font-size: 18px;
+}
+
+#descricao{
+    font-size: 18px;
+    margin: 30px 0;
+}
+
+#avaliacao{
+    width: 180px;
+    height: 30px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+
+#tags{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+
+.cont-tags{
+    width: 160px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: .2s;
+}
+
+.cont-tags:hover{
+    background-color: #ffffff11;
+    box-shadow: 0px 0px 8px #ffffff23;
+    transform: scale(1.05);
+}
+
+#redes-sociais{
+    padding: 40px 0;
+}
+
+.redes{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0;
+}
+
+.redes i{
+    color: #3266D7;
+    font-size: 30px;
+}
+
+.redes p{
+    opacity: 45%;
+    font-size: 18px;
+}
+
+#sec-direita {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#sobre-mim{
+    padding: 100px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    background-color: #2C2C2C;
+}
+
+#sobre-mim h4{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+#sobre-mim p{
+    opacity: 60%;
+    font-size: 20px;
+}
+
+#tds-plays h1{
+    font-size: 40px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+#tds-plays hr{
+    opacity: 70%;
+}
+
+/*PLAYLISTS*/
+
+.playlists-metas {
+    width: 100%;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.03);
+    display: flex;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 30px 0;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.playlists-metas:hover{
+    transform: scale(1.01);
+    box-shadow: 1px 1px 30px rgb(255, 255, 255, 0.1);
+}
+
+.img-metas {
+    width: 60%;
+    height: 300px;
+    background-color: #FFFFFF;
+}
+
+.detalhes-metas {
+    padding: 40px;
+}
+
+.txt-metas h4 {
+    font-size: 22px;
+}
+
+.txt-metas hr {
+    margin: 30px 0;
+    opacity: 30%;
+}
+
+.txt-metas p {
+    opacity: 60%;
+}
+
+.perfil-metas img {
+    background-color: #FFFFFF;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.perfil-metas {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    margin-top: 10px;
+}
+
+/*PLAYLISTS - FIM*/
+
+/*FOOTER*/
+
+#navegacao {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#navegacao ul {
+    display: flex;
+    gap: 23px;
+    list-style: none;
+}
+
+#navegacao li {
+    background-color: #3266D7;
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navegacao i {
+    color: #FFFFFF;
+    font-size: 42px;
+}
+
+.sla hr {
+    max-width: 80%;
+    height: 6px;
+    background-color: #3266D7;
+    border: none;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.sla p {
+    text-align: center;
+    color: #3266D7;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+footer {
+    padding: 100px 0;
+}
