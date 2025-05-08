@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1f1f1f;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+span{
+    color: #2962ff;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1300px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+}
+
+.left-side {
+    width: 40%;
+    background-color: #2962ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-side img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side {
+    flex: 1;
+    padding: 80px 70px;
+    background-color: #2C2C2C;
+}
+
+h2 {
+    padding: 40px 0px 60px 0px;
+    font-size: 35px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+/* IPUTS */
+
+.input-group {
+    position: relative;
+    padding: 20px 0;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #2C2C2C inset;
+    -webkit-text-fill-color: #f5f5f5;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.input {
+    border: solid 1.5px rgb(255, 255, 255, 0.08);
+    border-radius: 30px;
+    background: none;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    color: #f5f5f5;
+    transition: border 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.2);
+    width: 100%; 
+}
+
+.user-label {
+    position: absolute;
+    left: 30px;
+    color: rgb(255, 255, 255, 0.4);
+    pointer-events: none;
+    transform: translateY(1.5rem);
+    transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: #2C2C2C;
+    padding: 0 0.25rem;
+    font-size: 1rem;
+}
+
+.input:focus, .input:valid {
+    outline: none;
+    border: 1.5px solid #3266D7;
+}
+
+.input:focus~.user-label,
+.input:valid~.user-label {
+    transform: translateY(-50%) scale(0.8);
+    background-color: #2C2C2C;
+    padding: 0 0.25rem;
+    color: #3266D7;
+    left: 10px;
+}
+
+/*INPUTS - FIM*/
+
+.btn {
+    width: 43%;
+    padding: 14px;
+    border: none;
+    border-radius: 20px;
+    background-color: #e0e0e0;
+    color: #2962ff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-size: 15px;
+    margin: 30px auto;
+    transition: .2s;
+}
+
+.btn:hover {
+    background-color: #d5d5d5;
+    box-shadow: 0px 0px 8px #3266D7;
+    transform: scale(1.05);
+}
+
+.login-link {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.login-link a {
+    color: #2962ff;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.login-link a:hover{
+    font-size: 19px;
+}
