@@ -25,7 +25,7 @@ setInterval(() => {
 
 const range = document.getElementById('meuRange');
     const rangeValue = document.getElementById('rangeValue');
-    const valoresPossiveis = [1, 5, 10];
+    const valoresPossiveis = [1,2,3,4,5,6,7,8,9,10];
 
     function updateRange() {
       const min = Number(range.min);
