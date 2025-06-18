@@ -17,7 +17,7 @@ app.use(cors());
 // Servir arquivos estáticos da pasta front
 app.use(express.static(path.join(__dirname, '..', 'front')));
 
-// ✅ Servir imagens da pasta uploads
+// Servir imagens da pasta uploads
 app.use('/uploads', express.static(path.join(__dirname, '..', 'uploads')));
 
 // Página inicial
