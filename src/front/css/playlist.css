@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css');
+
 * {
     margin: 0;
     padding: 0;
@@ -9,68 +12,113 @@ span {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
     background-color: #2C2C2C;
-    color: #FFFFFF;
+    color: #fff;
 }
 
-header {
-    padding: 40px;
+main{
+    padding-top: 150px;
 }
 
-header>.interface {
+.modern-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 60px;
+    background: rgba(0, 0, 0, 0.3);
+    /* transparente */
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    /* para Safari/Chrome */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    transition: background 0.3s ease;
+}
+
+.container {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-}
-
-header a {
-    color: #fff;
-    text-decoration: none;
-    display: inline-block;
-    transition: .2s;
-}
-
-header nav.menu-desktop a:hover {
-    color: #fff;
-    transform: scale(1.05);
-}
-
-header nav ul {
-    list-style-type: none;
-}
-
-header nav.menu-desktop ul li {
-    display: inline-block;
-    padding: 0 30px;
-    font-size: 18px;
-}
-
-.btn-conta button {
-    color: #FFFFFF;
-    padding: 13px 65px;
-    font-size: 17px;
-    font-weight: 100;
-    background-color: #3266D7;
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: .2s;
-}
-
-button:hover,
-form .btn-enviar input:hover {
-    box-shadow: 0px 0px 8px #3266D7;
-    transform: scale(1.05);
+    justify-content: space-between;
+    overflow: visible;
 }
 
 .logo img {
-    width: 35%;
-    height: 100%;
+    height: 55px;
+    filter: brightness(1.2);
     mix-blend-mode: lighten;
 }
 
-/*HEAFER-FIM*/
+.logo {
+    mix-blend-mode: lighten;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 15px;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.nav-links a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: width 0.3s ease;
+}
+
+.nav-links a:hover::after,
+.nav-links a.active::after {
+    width: 100%;
+}
+
+.nav-links a:hover {
+    color: #fff;
+}
+
+.social-icons a {
+    color: rgba(255, 255, 255, 0.6);
+    margin-left: 15px;
+    font-size: 20px;
+    transition: opacity 0.3s ease, transform 0.2s;
+}
+
+.social-icons a:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.perfil-acesso {
+    margin-left: 20px;
+}
+
+.perfil-acesso a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 22px;
+    padding: 10px;
+    border-radius: 50%;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.perfil-acesso a:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: scale(1.1);
+    color: #ffffff;
+}
+
+/*HEADER-FIM*/
 
 #container-cima{
     max-width: 100%;
@@ -83,7 +131,11 @@ form .btn-enviar input:hover {
 #img-playlist{
     width: 400px;
     height: 400px;
-    background-color: #FFFFFF;
+}
+
+#img-playlist img{
+    width: 100%;
+    height: 100%;
 }
 
 #container-cima h1{
@@ -95,14 +147,53 @@ form .btn-enviar input:hover {
     display: flex;
     gap: 10px;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+#publicacao{
+    opacity: 50%;
 }
 
 .img-perfil{
     width: 40px;
     height: 40px;
-    background-color: #FFFFFF;
-    border-radius: 50%      ;
+    border-radius: 50%;
+}
+
+.img-perfil img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/*AVALIAÇÃO*/
+
+#avaliacao{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.estrelas-avaliacao {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 4px;
+}
+
+.estrelas-avaliacao i {
+    font-size: 25px;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.2s, transform 0.2s;
+}
+
+.estrelas-avaliacao i:hover {
+    transform: scale(1.1);
+}
+
+.estrelas-avaliacao i.ativo {
+    color: #FFD700;
 }
 
 #container-cima p{
@@ -123,7 +214,7 @@ form .btn-enviar input:hover {
 
 #container-meio i{
     color: #3266D7;
-    font-size: 35px;
+    font-size: 33px;
 }
 
 #container-meio hr{
@@ -134,6 +225,185 @@ form .btn-enviar input:hover {
     display: flex;
     gap: 20px;
 }
+
+/* FAVORITAR PLAYLIST - ANIMAÇÃO */
+.fav-checkbox {
+    position: relative;
+    width: 33px;
+    height: 33px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.fav-checkbox input {
+    display: none;
+}
+
+.fav-checkbox .icon {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    transition: transform 0.3s ease;
+    transform: scale(1);
+}
+
+.fav-checkbox .icon i {
+    font-size: 33px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #3266D7;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.fav-checkbox .icon .bi-heart {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.fav-checkbox .icon .bi-heart-fill {
+    opacity: 0;
+    transform: scale(0);
+    color: #e63946;
+}
+
+.fav-checkbox input:checked + .icon {
+    animation: pop 0.3s ease forwards;
+}
+
+.fav-checkbox input:checked + .icon .bi-heart {
+    opacity: 0;
+    transform: scale(0);
+}
+
+.fav-checkbox input:checked + .icon .bi-heart-fill {
+    opacity: 1;
+    transform: scale(1.04);
+}
+
+@keyframes pop {
+    0% {
+        transform: scale(0.8);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* CONCLUIR - ANIMAÇÃO CHECK */
+.check-checkbox {
+    position: relative;
+    width: 33px;
+    height: 33px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.check-checkbox input {
+    display: none;
+}
+
+.check-checkbox .icon {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    transition: transform 0.3s ease;
+    transform: scale(1);
+}
+
+.check-checkbox .icon i {
+    font-size: 33px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #3266D7;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.check-checkbox .icon .bi-check-circle {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.check-checkbox .icon .bi-check-circle-fill {
+    opacity: 0;
+    transform: scale(0);
+}
+
+.check-checkbox input:checked + .icon {
+    animation: pop 0.3s ease forwards;
+}
+
+.check-checkbox input:checked + .icon .bi-check-circle {
+    opacity: 0;
+    transform: scale(0);
+}
+
+.check-checkbox input:checked + .icon .bi-check-circle-fill {
+    opacity: 1;
+    transform: scale(1.04);
+}
+
+/* VARIAÇÃO PARA METAS */
+.check-checkbox.meta-check {
+    width: 25px;
+    height: 25px;
+}
+
+.check-checkbox.meta-check .icon i {
+    font-size: 25px;
+}
+
+.check-checkbox.meta-check .icon .bi-check-circle {
+    color: #3266D7;
+}
+
+.check-checkbox.meta-check .icon .bi-check-circle-fill {
+    color: #3266D7;
+}
+
+/* BARRA DE PESQUISA ANIMADA */
+#pesquisa {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#pesquisa i {
+    cursor: pointer;
+}
+
+#search-input {
+    width: 0;
+    opacity: 0;
+    padding: 10px 16px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    background-color: #2C2C2C;
+    color: #ffffff;
+    font-size: 16px;
+    transition: width 0.4s ease, opacity 0.4s ease;
+    box-shadow: 0 0 8px rgb(0,0,0,0.2)
+}
+
+#pesquisa.active #search-input {
+    width: 350px;
+    height: 50px;
+    opacity: 1;
+}
+
+#search-input::placeholder {
+    color: #ccc;
+}
+
+/*ANIMAÇÃO - FIM*/
 
 #container-baixo{
     max-width: 100%;
@@ -165,7 +435,12 @@ form .btn-enviar input:hover {
 .img-meta{
     width: 60px;
     height: 60px;
-    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+
+.img-meta img{
+    width: 100%;
+    height: 100%;
     border-radius: 8px;
 }
 
@@ -204,15 +479,12 @@ form .btn-enviar input:hover {
     display: flex;
     gap: 20px;
     overflow: hidden;
-    /* Impede que mostre partes dos próximos cards */
     scroll-behavior: smooth;
     width: calc(420px * 3 + 20px * 2);
-    /* Exatamente 3 cards visíveis */
 }
 
 /* Estilo dos cards de destaque */
 .play-destaque {
-    background-color: #FFFFFF;
     width: 420px;
     min-width: 420px;
     height: 300px;
@@ -226,8 +498,13 @@ form .btn-enviar input:hover {
     border-top-left-radius: 20px;
     width: 100%;
     height: 245px;
-    background-color: #ccc;
-    /* opcional para visual */
+}
+
+.img-play img{
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
 .txt-play {
