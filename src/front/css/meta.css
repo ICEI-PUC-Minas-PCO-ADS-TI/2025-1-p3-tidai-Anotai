@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css');
+
 * {
     margin: 0;
     padding: 0;
@@ -9,68 +12,113 @@ span {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
     background-color: #2C2C2C;
-    color: #FFFFFF;
+    color: #fff;
 }
 
-header {
-    padding: 40px;
+main{
+    margin-top: 170px;
 }
 
-header>.interface {
+.modern-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 60px;
+    background: rgba(0, 0, 0, 0.3);
+    /* transparente */
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    /* para Safari/Chrome */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    transition: background 0.3s ease;
+}
+
+.container {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-}
-
-header a {
-    color: #fff;
-    text-decoration: none;
-    display: inline-block;
-    transition: .2s;
-}
-
-header nav.menu-desktop a:hover {
-    color: #fff;
-    transform: scale(1.05);
-}
-
-header nav ul {
-    list-style-type: none;
-}
-
-header nav.menu-desktop ul li {
-    display: inline-block;
-    padding: 0 30px;
-    font-size: 18px;
-}
-
-.btn-conta button {
-    color: #FFFFFF;
-    padding: 13px 65px;
-    font-size: 17px;
-    font-weight: 100;
-    background-color: #3266D7;
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: .2s;
-}
-
-button:hover,
-form .btn-enviar input:hover {
-    box-shadow: 0px 0px 8px #3266D7;
-    transform: scale(1.05);
+    justify-content: space-between;
+    overflow: visible;
 }
 
 .logo img {
-    width: 35%;
-    height: 100%;
+    height: 55px;
+    filter: brightness(1.2);
     mix-blend-mode: lighten;
 }
 
-/*HEAFER-FIM*/
+.logo {
+    mix-blend-mode: lighten;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 15px;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.nav-links a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: width 0.3s ease;
+}
+
+.nav-links a:hover::after,
+.nav-links a.active::after {
+    width: 100%;
+}
+
+.nav-links a:hover {
+    color: #fff;
+}
+
+.social-icons a {
+    color: rgba(255, 255, 255, 0.6);
+    margin-left: 15px;
+    font-size: 20px;
+    transition: opacity 0.3s ease, transform 0.2s;
+}
+
+.social-icons a:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.perfil-acesso {
+    margin-left: 20px;
+}
+
+.perfil-acesso a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 22px;
+    padding: 10px;
+    border-radius: 50%;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.perfil-acesso a:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: scale(1.1);
+    color: #ffffff;
+}
+
+/*HEADER-FIM*/
 
 main{
     max-width: 100%;
@@ -88,7 +136,11 @@ main{
 #img-playlist{
     width: 400px;
     height: 400px;
-    background-color: #FFFFFF;
+}
+
+#img-playlist img{
+    width: 100%;
+    height: 100%;
 }
 
 #container-cima h1{
@@ -106,8 +158,13 @@ main{
 .img-perfil{
     width: 40px;
     height: 40px;
-    background-color: #FFFFFF;
-    border-radius: 50%      ;
+    border-radius: 50%;
+}
+
+.img-perfil img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
 }
 
 #container-cima p{
@@ -176,7 +233,49 @@ main{
 #img-arquivo{
     width: 20%;
     height: 200px;
-    background-color: #FFFFFF;
+}
+
+#img-arquivo img{
+    width: 100%;
+    height: 100%;
+}
+
+.arquivo-hover {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.arquivo-hover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    background-color: rgba(86, 136, 228, 0.6); /* azul claro translúcido */
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.overlay i {
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+}
+
+.arquivo-hover:hover .overlay {
+    opacity: 1;
 }
 
 /*FOOTER*/
