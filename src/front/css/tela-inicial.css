@@ -1,80 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-span{
+span {
     color: #3266D7;
 }
 
 body {
-    font-family: Arial, sans-serif;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
     background-color: #2C2C2C;
-    color: #FFFFFF;
+    color: #fff;
 }
 
-header {
-    padding: 40px ;
+.modern-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 60px;
+    background: rgba(0, 0, 0, 0.3);
+    /* transparente */
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    /* para Safari/Chrome */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    transition: background 0.3s ease;
 }
 
-header>.interface {
+.container-header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    overflow: visible;
 }
 
-header a {
-    color: #fff;
-    text-decoration: none;
-    display: inline-block;
-    transition: .2s;
-}
-
-header nav.menu-desktop a:hover {
-    color: #fff;
-    transform: scale(1.05);
-}
-
-header nav ul {
-    list-style-type: none;
-}
-
-header nav.menu-desktop ul li {
-    display: inline-block;
-    padding: 0 30px;
-    font-size: 18px;
-}
-
-.btn-conta button {
-    color: #FFFFFF;
-    padding: 13px 65px;
-    font-size: 17px;
-    font-weight: 100;
-    background-color: #3266D7;
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: .2s;
-}
-
-button:hover,
-form .btn-enviar input:hover {
-    box-shadow: 0px 0px 8px #3266D7;
-    transform: scale(1.05);
-}
-
-.logo img{
-    width: 35%;
-    height: 100%;
+.logo img {
+    height: 55px;
+    filter: brightness(1.2);
     mix-blend-mode: lighten;
 }
+
+.logo {
+    mix-blend-mode: lighten;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 15px;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.nav-links a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: width 0.3s ease;
+}
+
+.nav-links a:hover::after,
+.nav-links a.active::after {
+    width: 100%;
+}
+
+.nav-links a:hover {
+    color: #fff;
+}
+
+.social-icons a {
+    color: rgba(255, 255, 255, 0.6);
+    margin-left: 15px;
+    font-size: 20px;
+    transition: opacity 0.3s ease, transform 0.2s;
+}
+
+.social-icons a:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+/* Botões "Entrar" e "Registrar" para usuários não logados */
+.auth-buttons {
+  display: flex;
+  gap: 12px;
+  margin-left: 20px;
+}
+
+.auth-buttons .btn {
+  padding: 10px 22px;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.auth-buttons .login {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.auth-buttons .register {
+  background-color: #3266D7;
+  color: #fff;
+  border: none;
+}
+
+.auth-buttons .btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+/*HEADER-FIM*/
 
 /*Seção Merlhore*/
 
 #sec-melhore {
     width: 100%;
-    height: 800px;
+    height: 700px;
     background-color: #6F6F6F;
     display: flex;
     justify-content: center;
@@ -99,15 +160,7 @@ form .btn-enviar input:hover {
 
 #sec-func {
     width: 100%;
-    margin-bottom: 200px;
-}
-
-#sec-func h1 {
-    text-align: center;
-    padding: 100px 0;
-    font-size: 50px;
-    margin-bottom: 60px;
-    margin-top: 80px;
+    margin: 100px 0 200px 0;
 }
 
 .container,
@@ -116,11 +169,12 @@ form .btn-enviar input:hover {
     width: 70%;
     justify-content: space-around;
     align-items: center;
-    padding: 50px 10px;
+    padding: 70px 20px;
     margin: 0 auto;
-    margin-bottom: 150px;
-    border-radius: 20px;
+    margin-bottom: 80px;
+    border-radius: 30px;
     transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0px 0px 20px rgb(0,0,0,0.1);
 }
 
 .container:hover,
@@ -139,7 +193,6 @@ form .btn-enviar input:hover {
 }
 
 .img-infos {
-    background-color: #FFFFFF;
     width: 300px;
     height: 280px;
     border-radius: 20px;
@@ -183,7 +236,6 @@ form .btn-enviar input:hover {
 }
 
 .img-login{
-    background-color: #FFFFFF;
     width: 43%;
     height: 700px;
 }

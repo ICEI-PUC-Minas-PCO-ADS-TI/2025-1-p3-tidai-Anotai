@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+span {
+    color: #3266D7;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #2C2C2C;
+    color: #fff;
+}
+
+main{
+    padding-top: 150px;
+}
+
+.modern-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 60px;
+    background: rgba(0, 0, 0, 0.3);
+    /* transparente */
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    /* para Safari/Chrome */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    transition: background 0.3s ease;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: visible;
+}
+
+.logo img {
+    height: 55px;
+    filter: brightness(1.2);
+    mix-blend-mode: lighten;
+}
+
+.logo {
+    mix-blend-mode: lighten;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 15px;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.nav-links a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: width 0.3s ease;
+}
+
+.nav-links a:hover::after,
+.nav-links a.active::after {
+    width: 100%;
+}
+
+.nav-links a:hover {
+    color: #fff;
+}
+
+.social-icons a {
+    color: rgba(255, 255, 255, 0.6);
+    margin-left: 15px;
+    font-size: 20px;
+    transition: opacity 0.3s ease, transform 0.2s;
+}
+
+.social-icons a:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.perfil-acesso {
+    margin-left: 20px;
+}
+
+.perfil-acesso a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 22px;
+    padding: 10px;
+    border-radius: 50%;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.perfil-acesso a:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: scale(1.1);
+    color: #ffffff;
+}
+
+/*HEADER-FIM*/
+
+.sobre-container {
+  padding: 80px 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(145deg, #2c2c2c, #1f1f1f);
+  color: #fff;
+}
+
+.sobre-destaque {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.sobre-img img {
+  width: 400px;
+  max-width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.sobre-conteudo {
+  max-width: 600px;
+}
+
+.sobre-conteudo h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.sobre-conteudo p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  opacity: 0.85;
+}
+
+.btn-cta {
+  display: inline-block;
+  padding: 15px 40px;
+  background-color: #3266D7;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 18px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-cta:hover {
+  background-color: #274bb5;
+  transform: scale(1.05);
+  box-shadow: 0 0 12px #3266D7;
+}
+
+.sobre-valores {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.sobre-valores h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.valores-itens {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.valor-item {
+  background: #1f1f1f;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  width: 300px;
+}
+
+.valor-item i {
+  font-size: 48px;
+  color: #3266D7;
+  margin-bottom: 20px;
+}
+
+.valor-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.valor-item p {
+  font-size: 16px;
+  opacity: 0.85;
+}
+
+.valor-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+}
+
+.sobre-missao {
+  margin-top: 80px;
+  text-align: center;
+  max-width: 800px;
+}
+
+.sobre-missao h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.sobre-missao p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  opacity: 0.85;
+}
+
+.sobre-cta {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.sobre-cta h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
