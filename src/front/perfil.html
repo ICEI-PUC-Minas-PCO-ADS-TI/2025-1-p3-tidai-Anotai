@@ -1,148 +1,130 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/perfil.css" />
+        <link rel="icon" href="/uploads/logo.png" type="image/png" />
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <title>Anotaí</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/perfil.css">
-    <link rel="icon" href="../../docs/images/logo.png" type="image/png">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
-    <title>Anotaí</title>
-</head>
+    <body>
+        <header class="modern-header">
+            <div class="container">
+                <div class="logo">
+                    <a href="home.html">
+                        <img src="/uploads/logo.png" alt="Logo" />
+                    </a>
+                </div>
 
-<body>
-    <header>
-        <div class="interface">
-            <div class="logo">
-                <a href="home.html">
-                    <img src="../../docs/images/logo.png" alt="Logo">
-                </a>
-            </div><!--logo-->
+                <nav class="nav-links">
+                    <a href="home.html" class="active">inicio</a>
+                    <a href="sobre.html">Sobre</a>
+                    <a href="criar-playlists.html">Criar</a>
+                    <a href="#navegacao">Contato</a>
+                </nav>
 
-            <nav class="menu-desktop">
-                <ul>
- 
-                    <li><a href="meta.html">Tarefas</a></li>
-                    <li><a href="home.html">Sobre</a></li>
-                    <li><a href="playlist.html">Playlist</a></li>
-                </ul>
-            </nav>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
 
-
-            <div class="btn-conta">
-                <a href="registrar.html">
-                    <button>Registrar</button>
-                </a>
-            </div><!--btn-conta-->
-
-    </header>
-    <!--HEADER-->
-
-    <div id="papel-parede">
-        <img src="#" alt>
-    </div>
-
-    <main>
-        <div id="sec-esquerda">
-            <div id="img-perfil">
-                <img src="#" alt>
-            </div>
-            <div id="infos">
-                <h4 id="nome">Nome Completo</h4>
-                <p id="nome-perfil">@nome de perfil</p>
-                <p id="descricao">Descrição</p>
-                <div id="avaliacao">
-                    <!--estrela-->
+                <div class="perfil-acesso">
+                    <a href="perfil.html" title="Perfil">
+                        <i class="fa-solid fa-user"></i>
+                    </a>
                 </div>
             </div>
-            <div id="tags">
-                <div class="cont-tags">Saúde</div>
-                <div class="cont-tags">Aprendizado</div>
-                <div class="cont-tags">Viagem</div>
-            </div>
-            <div id="redes-sociais">
-                <div class="redes">
-                    <!--instagram-->
-                    <i class="bi bi-instagram"></i>
-                    <p>@nome de perfil</p>
-                </div>
-                <div class="redes">
-                    <!--github-->
-                    <i class="bi bi-github"></i>
-                    <p>@nome de perfil</p>
-                </div>
-                <div class="redes">
-                    <!--linkedin-->
-                    <i class="bi bi-linkedin"></i>
-                    <p>@nome de perfil</p>
-                </div>
+        </header>
+
+        <div id="papel-parede">
+            <img src="#" alt="Papel de parede" />
+            <div class="editar-papel">
+                <label for="upload-wallpaper" title="Trocar papel de parede">
+                    <i class="bi bi-brush"></i>
+                </label>
+                <input type="file" id="upload-wallpaper" accept="image/*"
+                    style="display: none;" />
             </div>
         </div>
-        <div id="sec-direita">
-            <div id="sobre-mim">
-                <h4>Sobre mim</h4>
-                <p>Vitae non quam tempore totam, molestiae alias
-                    aspernatur nam ipsa nihil officia sit repellendus
-                    facilis. Excepturi aspernatur saepe tempora quasi!
-                    Perferendis, sed vel rerum quasi rem laudantium quo
-                    aperiam harum. Porro voluptatum aliquam a harum,
-                    explicabo beatae reiciendis omnis</p>
-            </div>
-            <div id="tds-plays">
-                <h1>Playlists <span>publicadas</span></h1>
-                <hr>
-                <div id="playlists">
 
-                    <div class="playlists-metas">
-                        <div class="img-metas">
-                            <img src="#" alt>
-                        </div>
-                        <div class="detalhes-metas">
-                            <div class="txt-metas">
-                                <h4>Título</h4>
-                                <hr>
-                                <p>Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Recusandae repellendus
-                                    veritatis fugiat alias nemo quis doloribus
-                                    asperiores.</p>
-                            </div>
-                            <div class="perfil-metas">
-                                <div class="perfil">
-                                    <img src="#" alt>
-                                    <p id="nome-perfil">Perfil</p>
-                                </div>
-                                <div class="estrelas">
-                                    <!--ícone de estrala no bootstrap-->
-                                </div>
-                            </div>
+        <main>
+            <div id="sec-esquerda">
+                <div id="img-perfil">
+                    <img src="#" alt="Imagem de perfil" />
+                </div>
+
+                <div id="infos">
+                    <h4 id="nome"></h4>
+                    <p id="nome-perfil"></p>
+                    <p id="descricao"></p>
+                    <button id="btn-editar-perfil" class="btn-editar">Editar
+                        Perfil</button>
+                    <div id="avaliacao">
+                        <div class="estrelas-avaliacao">
+                            <i class="bi bi-star" data-value="1"></i>
+                            <i class="bi bi-star" data-value="2"></i>
+                            <i class="bi bi-star" data-value="3"></i>
+                            <i class="bi bi-star" data-value="4"></i>
+                            <i class="bi bi-star" data-value="5"></i>
                         </div>
                     </div>
+                </div>
 
+                <div id="tags">
+                    <div class="cont-tags">Saúde</div>
+                    <div class="cont-tags">Aprendizado</div>
+                    <div class="cont-tags">Viagem</div>
+                </div>
+                <div id="redes-sociais">
+                    <div class="redes"><i
+                            class="bi bi-instagram"></i><p></p></div>
+                    <div class="redes"><i class="bi bi-github"></i><p></p></div>
+                    <div class="redes"><i
+                            class="bi bi-linkedin"></i><p></p></div>
                 </div>
             </div>
-        </div>
-    </main>
 
-    <!--FOOTER-->
-    <footer>
-        <div id="navegacao">
-            <nav>
-                <ul>
-                    <li>
-                        <a href="https://github.com/seu-perfil" target="_blank"><i class="bi bi-github"></i></a>
-                    </li>
-                    <li><a href="https://linkedin.com/in/seu-perfil" target="_blank"><i class="bi bi-linkedin"></i></a>
-                    </li>
-                    <li><a href="https://instagram.com/seu-perfil" target="_blank"><i class="bi bi-instagram"></i></a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <div class="sla">
-            <hr>
-            <p>©2025 - Direitos reservados</p>
-        </div>
-    </footer>
-</body>
+            <div id="sec-direita">
+                <div id="sobre-mim">
+                    <h4>Sobre mim</h4>
+                    <p></p>
+                </div>
+                <div id="tds-plays">
+                    <h1>Playlists <span>publicadas</span></h1>
+                    <hr />
+                    <div id="playlists"></div>
+                </div>
+            </div>
+        </main>
 
+        <footer>
+            <div id="navegacao">
+                <nav>
+                    <ul>
+                        <li><a href="https://github.com/seu-perfil"
+                                target="_blank"><i
+                                    class="bi bi-github"></i></a></li>
+                        <li><a href="https://linkedin.com/in/seu-perfil"
+                                target="_blank"><i
+                                    class="bi bi-linkedin"></i></a></li>
+                        <li><a href="https://instagram.com/seu-perfil"
+                                target="_blank"><i
+                                    class="bi bi-instagram"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="sla">
+                <hr />
+                <p>©2025 - Direitos reservados</p>
+            </div>
+        </footer>
+
+        <script src="js/perfil.js"></script>
+    </body>
 </html>

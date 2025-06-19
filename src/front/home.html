@@ -5,323 +5,266 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/home.css">
-        <link rel="icon" href="../../docs/images/logo.png" type="image/png">
+        <link rel="icon" href="/uploads/logo.png" type="image/png">
         <link rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
         <title>Anotaí</title>
     </head>
 
     <body>
-        <header>
-            <div class="interface">
+        <header class="modern-header">
+            <div class="container">
                 <div class="logo">
                     <a href="home.html">
-                        <img src="../../docs/images/logo.png" alt="Logo">
+                        <img src="/uploads/logo.png" alt="Logo" />
                     </a>
-                </div><!--logo-->
-
-            <nav class="menu-desktop">
-                <ul>
-                    <li><a href="perfil.html">Perfil</a></li>
-                    <li><a href="meta.html">Tarefas</a></li>
-                    <li><a href="home.html">Sobre</a></li>
-                    <li><a href="playlist.html">Playlist</a></li>
-                </ul>
-            </nav>
-
-                <div class="btn-conta">
-                    <a href="registrar.html">
-                        <button>Registrar</button>
-                    </a>
-                </div><!--btn-conta-->
-
-            </header>
-            <!--HEADER-->
-
-            <div id="container1">
-                <div class="txt1">
-                    <h1>Comece a melhorar <br><span>sua rotina</span></h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                        At accusantium <br>ducimus dicta suscipit, neque
-                        cumque.</p>
-                    <div class="button1">
-                        <button class="btn-esquerda">privado</button>
-                        <button class="btn-direita">público</button>
-                    </div>
                 </div>
-                <div class="img1">
-                    <img src="#" alt>
+
+                <nav class="nav-links">
+                    <a href="home.html" class="active">inicio</a>
+                    <a href="sobre.html">Sobre</a>
+                    <a href="criar-playlists.html">Criar</a>
+                    <a href="#navegacao">Contato</a>
+                </nav>
+
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+
+                <div class="perfil-acesso">
+                    <a href="perfil.html" title="Perfil">
+                        <i class="fa-solid fa-user"></i>
+                    </a>
                 </div>
             </div>
+        </header>
 
-            <hr class="divisor">
+        <div id="container1">
+            <div class="txt1">
+                <h1>Comece a melhorar <br><span>sua rotina</span></h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    At accusantium <br>ducimus dicta suscipit, neque
+                    cumque.</p>
+                <div class="button1">
+                    <a href="criar-playlists.html">
+                        <button class="btn-esquerda">Privado</button>
+                        <button class="btn-direita">Público</button>
+                    </a>
+                </div>
+            </div>
+            <div class="img1">
+                <img src="#" alt>
+            </div>
+        </div>
 
-            <div id="sec2">
-                <div id="container2">
-                    <div class="txt2">
-                        <h1>Playlists em <span>Destaque</span></h1>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing
-                            elit. Quasi iste sint veritatis veniam, qui nihil
-                            dolores, adipisci dolorum asperiores ad, mollitia
-                            pariatur aliquid accusantium doloremque excepturi
-                            laudantium officia illo inventore!</p>
-                    </div>
-                    <div class="carrossel-container">
+        <hr class="divisor">
 
-                        <div class="destaques">
-                            <div class="play-destaque">
-                                <div class="img-play">
-                                    <img src="#" alt>
-                                </div>
-                                <div class="txt-play">
-                                    <p>Título</p>
-                                    <div class="estrelas"></div>
-                                </div>
+        <div id="sec2">
+            <div id="container2">
+                <div class="txt2">
+                    <h1>Playlists em <span>Destaque</span></h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Quasi iste sint veritatis veniam, qui nihil
+                        dolores, adipisci dolorum asperiores ad, mollitia
+                        pariatur aliquid accusantium doloremque excepturi
+                        laudantium officia illo inventore!</p>
+                </div>
+                <div class="carrossel-container">
+
+                    <div class="destaques">
+                        <div class="play-destaque">
+                            <div class="img-play">
+                                <img src="#" alt>
                             </div>
-
-                            <div class="play-destaque">
-                                <div class="img-play">
-                                    <img src="#" alt>
-                                </div>
-                                <div class="txt-play">
-                                    <p>Título</p>
-                                    <div class="estrelas"></div>
-                                </div>
+                            <div class="txt-play">
+                                <p>Título</p>
+                                <div class="estrelas"></div>
                             </div>
+                        </div>
 
-                            <div class="play-destaque">
-                                <div class="img-play">
-                                    <img src="#" alt>
-                                </div>
-                                <div class="txt-play">
-                                    <p>Título</p>
-                                    <div class="estrelas"></div>
-                                </div>
+                        <div class="play-destaque">
+                            <div class="img-play">
+                                <img src="#" alt>
                             </div>
-
-                            <div class="play-destaque">
-                                <div class="img-play">
-                                    <img src="#" alt>
-                                </div>
-                                <div class="txt-play">
-                                    <p>Título</p>
-                                    <div class="estrelas"></div>
-                                </div>
+                            <div class="txt-play">
+                                <p>Título</p>
+                                <div class="estrelas"></div>
                             </div>
+                        </div>
 
-                            <div class="play-destaque">
-                                <div class="img-play">
-                                    <img src="#" alt>
-                                </div>
-                                <div class="txt-play">
-                                    <p>Título</p>
-                                    <div class="estrelas"></div>
-                                </div>
+                        <div class="play-destaque">
+                            <div class="img-play">
+                                <img src="#" alt>
                             </div>
+                            <div class="txt-play">
+                                <p>Título</p>
+                                <div class="estrelas"></div>
+                            </div>
+                        </div>
 
-                            <div class="play-destaque">
-                                <div class="img-play">
-                                    <img src="#" alt>
-                                </div>
-                                <div class="txt-play">
-                                    <p>Título</p>
-                                    <div class="estrelas"></div>
-                                </div>
+                        <div class="play-destaque">
+                            <div class="img-play">
+                                <img src="#" alt>
+                            </div>
+                            <div class="txt-play">
+                                <p>Título</p>
+                                <div class="estrelas"></div>
+                            </div>
+                        </div>
+
+                        <div class="play-destaque">
+                            <div class="img-play">
+                                <img src="#" alt>
+                            </div>
+                            <div class="txt-play">
+                                <p>Título</p>
+                                <div class="estrelas"></div>
+                            </div>
+                        </div>
+
+                        <div class="play-destaque">
+                            <div class="img-play">
+                                <img src="#" alt>
+                            </div>
+                            <div class="txt-play">
+                                <p>Título</p>
+                                <div class="estrelas"></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <hr class="divisor">
-            
-            <h1 id="titulo-tds">Todas as <span>Playlists</span></h1>
+        <hr class="divisor">
 
-            <div id="tds-playlists">
-                <div id="filtro">
-                    <div id="prioridade">
-                        <div class="container-p">
-                            <h4>Prioridade</h4>
-                            <div class="button-p">
-                                <button><i class="bi bi-clock-history"></i>
-                                    Baixa</button>
-                                <button><i
-                                        class="bi bi-hourglass-split"></i>Média</button>
-                                <button><i
-                                        class="bi bi-exclamation-triangle-fill"></i>Alta</button>
-                            </div>
-                            <hr>
-                        </div>
-                    </div>
-                    <div id="data-conclusao">
-                        <h4>Data de Conclusão</h4>
-                        <!--range input-->
-                        <div class="range-container">
-                            <input type="range" id="meuRange" min="0" max="9"
-                                step="1">
-                            <div id="rangeValue">1</div>
+        <h1 id="titulo-tds">Todas as <span>Playlists</span></h1>
+
+        <div id="tds-playlists">
+            <div id="filtro">
+                <div id="prioridade">
+                    <div class="container-p">
+                        <h4>Prioridade</h4>
+                        <div class="button-p">
+                            <button><i class="bi bi-clock-history"></i>
+                                Baixa</button>
+                            <button><i
+                                    class="bi bi-hourglass-split"></i>Média</button>
+                            <button><i
+                                    class="bi bi-exclamation-triangle-fill"></i>Alta</button>
                         </div>
                         <hr>
                     </div>
-                    <div id="Tags">
-                        <h4>Tags</h4>
-                        <div class="search-container">
-                            <div class="input-wrapper">
-                                <input class="search-input" type="text"
-                                    placeholder="Adicionar Tags">
-                                <i class="bi bi-plus"></i>
-                            </div>
-                            <hr>
-                        </div>
+                </div>
+                <div id="data-conclusao">
+                    <h4>Data de Conclusão</h4>
+                    <!--range input-->
+                    <div class="range-container">
+                        <input type="range" id="meuRange" min="0" max="2"
+                            step="1">
+                        <div id="rangeValue">1</div>
                     </div>
-                    <div id="categoria">
-                        <h4>categoria</h4>
-                        <div class="search-container">
-                            <div class="input-wrapper">
-                                <input class="search-input" type="text"
-                                    placeholder="Adicionar Categorias">
-                                <i class="bi bi-plus"></i>
-                            </div>
-                            <hr>
-                        </div>
-                    </div>
-                    <div id="avaliacao">
-                        <h4>Avaliação</h4>
-                        <!--estrelas de avaliação-->
-                    </div>
+                    <hr>
                 </div>
 
-                <div id="container3">
-                    <div class="playlists-metas">
-                        <div class="img-metas">
-                            <img src="#" alt>
-                        </div>
-                        <div class="detalhes-metas">
-                            <div class="txt-metas">
-                                <h4>Título</h4>
-                                <hr>
-                                <p>Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Recusandae repellendus
-                                    veritatis fugiat alias nemo quis doloribus
-                                    asperiores.</p>
-                            </div>
-                            <div class="perfil-metas">
-                                <div class="perfil">
-                                    <img src="#" alt>
-                                    <p id="nome-perfil">Perfil</p>
-                                </div>
-                                <div class="estrelas">
-                                    <!--ícone de estrala no bootstrap-->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div id="Tags">
+                    <h4>Tags</h4>
 
-                    <div class="playlists-metas">
-                        <div class="img-metas">
-                            <img src="#" alt>
+                    <!-- Input para adicionar novas tags -->
+                    <div class="search-container">
+                        <div class="input-wrapper">
+                            <input id="tagInput" class="search-input"
+                                type="text" placeholder="Adicionar Tags">
+                            <i id="addTagBtn" class="bi bi-plus"
+                                style="cursor: pointer;"></i>
                         </div>
-                        <div class="detalhes-metas">
-                            <div class="txt-metas">
-                                <h4>Título</h4>
-                                <hr>
-                                <p>Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Recusandae repellendus
-                                    veritatis fugiat alias nemo quis doloribus
-                                    asperiores.</p>
-                            </div>
-                            <div class="perfil-metas">
-                                <div class="perfil">
-                                    <img src="#" alt>
-                                    <p id="nome-perfil">Perfil</p>
-                                </div>
-                                <div class="estrelas">
-                                    <!--ícone de estrala no bootstrap-->
-                                </div>
-                            </div>
+                        <!-- Tags pré-selecionadas -->
+                        <div id="tags-container">
+                            <span class="tag">Estudos <i
+                                    class="remove-tag bi bi-x"></i></span>
+                            <span class="tag">Trabalho <i
+                                    class="remove-tag bi bi-x"></i></span>
+                            <span class="tag">Lazer <i
+                                    class="remove-tag bi bi-x"></i></span>
                         </div>
                     </div>
-                    
-                    <div class="playlists-metas">
-                        <div class="img-metas">
-                            <img src="#" alt>
-                        </div>
-                        <div class="detalhes-metas">
-                            <div class="txt-metas">
-                                <h4>Título</h4>
-                                <hr>
-                                <p>Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Recusandae repellendus
-                                    veritatis fugiat alias nemo quis doloribus
-                                    asperiores.</p>
-                            </div>
-                            <div class="perfil-metas">
-                                <div class="perfil">
-                                    <img src="#" alt>
-                                    <p id="nome-perfil">Perfil</p>
-                                </div>
-                                <div class="estrelas">
-                                    <!--ícone de estrala no bootstrap-->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <hr>
+                </div>
 
-                    <div class="playlists-metas">
-                        <div class="img-metas">
-                            <img src="#" alt>
+                <div id="categoria">
+                    <h4>Categoria</h4>
+                    <div class="search-container">
+                        <div class="input-wrapper">
+                            <input id="categoriaInput" class="search-input"
+                                type="text"
+                                placeholder="Adicionar Categorias"
+                                maxlength="15">
+                            <i id="addCategoriaBtn" class="bi bi-plus"
+                                style="cursor: pointer;"></i>
                         </div>
-                        <div class="detalhes-metas">
-                            <div class="txt-metas">
-                                <h4>Título</h4>
-                                <hr>
-                                <p>Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Recusandae repellendus
-                                    veritatis fugiat alias nemo quis doloribus
-                                    asperiores.</p>
-                            </div>
-                            <div class="perfil-metas">
-                                <div class="perfil">
-                                    <img src="#" alt>
-                                    <p id="nome-perfil">Perfil</p>
-                                </div>
-                                <div class="estrelas">
-                                    <!--ícone de estrala no bootstrap-->
-                                </div>
-                            </div>
+                    </div>
+                    <div id="categorias-container">
+                        <span class="tag">Pessoal <i
+                                class="remove-categoria bi bi-x"></i></span>
+                        <span class="tag">Acadêmico <i
+                                class="remove-categoria bi bi-x"></i></span>
+                        <span class="tag">Profissional <i
+                                class="remove-categoria bi bi-x"></i></span>
+                    </div>
+                    <hr>
+                </div>
+
+                <div id="sec-avaliacao">
+                    <h4>Avaliação</h4>
+                    <div id="avaliacao">
+                        <div class="estrelas-avaliacao">
+                            <i class="bi bi-star" data-value="1"></i>
+                            <i class="bi bi-star" data-value="2"></i>
+                            <i class="bi bi-star" data-value="3"></i>
+                            <i class="bi bi-star" data-value="4"></i>
+                            <i class="bi bi-star" data-value="5"></i>
                         </div>
-                        
                     </div>
                 </div>
             </div>
 
-            <!--FOOTER-->
-            <footer>
-                <div id="navegacao">
-                    <nav>
-                        <ul>
-                            <li>
-                                <a href="https://github.com/seu-perfil"
-                                    target="_blank"><i
-                                        class="bi bi-github"></i></a>
-                            </li>
-                            <li><a href="https://linkedin.com/in/seu-perfil"
-                                    target="_blank"><i
-                                        class="bi bi-linkedin"></i></a>
-                            </li>
-                            <li><a href="https://instagram.com/seu-perfil"
-                                    target="_blank"><i
-                                        class="bi bi-instagram"></i></a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="sla">
-                    <hr>
-                    <p>©2025 - Direitos reservados</p>
-                </div>
-            </footer>
-            <script src="js/home.js"></script>
-        </body>
+            <div id="container3">
+                <!-- Playlists públicas serão inseridas aqui via JavaScript -->
+            </div>
 
-    </html>
+        </div>
+
+        <!--FOOTER-->
+        <footer>
+            <div id="navegacao">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="https://github.com/seu-perfil"
+                                target="_blank"><i
+                                    class="bi bi-github"></i></a>
+                        </li>
+                        <li><a href="https://linkedin.com/in/seu-perfil"
+                                target="_blank"><i
+                                    class="bi bi-linkedin"></i></a>
+                        </li>
+                        <li><a href="https://instagram.com/seu-perfil"
+                                target="_blank"><i
+                                    class="bi bi-instagram"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="sla">
+                <hr>
+                <p>©2025 - Direitos reservados</p>
+            </div>
+        </footer>
+        <script src="js/home.js"></script>
+    </body>
+
+</html>
