@@ -136,11 +136,11 @@ Atualizado em: 25/06/2025
 | Gabriel Madureira | Slides                        |  21/05/2025 | 18/06/2025 |   ✔️   |  18/06/2025  |
 | Gabriel Madureira | Testes de Usabilidade         |  21/05/2025 | 18/06/2025 |   ✔️   |  18/06/2025  |
 | Gabriel Madureira | Testes de software            |  21/05/2025 | 18/06/2025 |   ✔️   |  18/06/2025  |
-| Caique Villarreal | Testes de software            |  21/05/2025 | 18/06/2025 |   ✔️   |  18/06/2025  |
-| Caique Villarreal | Documentação                  |  21/05/2025 | 18/06/2025 |   ✔️   |  18/06/2025  |
+| Gabriel Madureira | Testes de software            |  21/05/2025 | 18/06/2025 |   ✔️   |  18/06/2025  |
+| Gabriel Madureira | Documentação                  |  21/05/2025 | 18/06/2025 |   ✔️   |  18/06/2025  |
 | Filipe Augusto    | Testes de Usabilidade         |  21/05/2025 | 18/06/2025 |   ✔️   |  18/06/2025  |
 | Filipe Augusto    | Template padrão               |  21/05/2025 | 18/06/2025 |   ✔️   |  18/06/2025  |
-| Filipe Augusto    | Back com Node (meta)          |  21/05/2025 | 18/06/2025 |   ✔️   |  18/06/2025  |
+| Filipe Augusto    | Back com Node (metas)         |  21/05/2025 | 18/06/2025 |   ✔️   |  18/06/2025  |
 | Filipe Augusto    | Slides                        |  21/05/2025 | 18/06/2025 |   ✔️   |  18/06/2025  |
 | Filipe Augusto    | Criar Forms SUS               |  21/05/2025 | 18/06/2025 |   ✔️   |  18/06/2025  |
 | Filipe Augusto    | Testes de software            |  21/05/2025 | 18/06/2025 |   ✔️   |  18/06/2025  |
@@ -156,11 +156,18 @@ Legenda:
 
 Atualizado em: 25/06/2025
 
-| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
-| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| Caique Villarreal | Diagrama de Fluxo de usuarios | 05/03/2025 | 08/04/2025| ✔️  | 08/04/2025|
-| Gabriel Madureira | Gestão de tarefas | 05/03/2025 | 09/04/2025 |✔️ | 09/04/2025|
-| Filipe  Augusto  | Templete padrão| 09/04/2025 | 09/04/2025 |✔️ | 09/04/2025|
+| Responsável       | Tarefa/Requisito                           | Iniciado em |    Prazo   | Status | Terminado em |
+| :---------------- | :------------------------------------------| :---------: | :--------: | :----: | :----------: |
+| Caique Villarreal | Diagrama de Fluxo de usuários              |  18/06/2025 | 25/06/2025 |   ✔️   |  25/06/2025  |
+| Caique Villarreal | Apresentar na amostra                      |  18/06/2025 | 20/06/2025 |   ✔️   |  20/06/2025  |
+| Caique Villarreal | Corrigir problemas da interface sistema    |  21/06/2025 | 24/06/2025 |   ✔️   |  24/06/2025  |
+| Gabriel Madureira | Revisar estrutura da Documentação          |  18/06/2025 | 22/06/2025 |   ✔️   |  22/06/2025  |
+| Gabriel Madureira | Corrigir funcionalidades                   |  20/06/2025 | 25/06/2025 |   ✔️   |  25/06/2025  |
+| Gabriel Madureira | Criar Slides                               |  18/06/2025 | 25/06/2025 |   ✔️   |  25/06/2025  |
+| Gabriel Madureira | Corrigir banco de dados                    |  18/06/2025 | 25/06/2025 |   ✔️   |  25/06/2025  |
+| Filipe Augusto    | Corrigir Metodologias na documentação      |  22/06/2025 | 25/06/2025 |   ✔️   |  25/06/2025  |
+| Filipe Augusto    | Apresentar na amostra                      |  22/06/2025 | 25/06/2025 |   ✔️   |  25/06/2025  |
+| Filipe Augusto    | Criar Slides                               |  18/06/2025 | 25/06/2025 |   ✔️   |  25/06/2025  |
 
 Legenda:
 - ✔️: terminado
