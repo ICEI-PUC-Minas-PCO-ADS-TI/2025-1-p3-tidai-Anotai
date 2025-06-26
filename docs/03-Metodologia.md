@@ -73,19 +73,19 @@ Legenda:
 
 Atualizado em: 09/04/2025
 
-| Responsável       | Tarefa/Requisito              | Iniciado em |    Prazo   | Status | Terminado em |
-| :---------------- | :---------------------------- | :---------: | :--------: | :----: | :----------: |
-| Caique Villarreal | Diagrama de Fluxo de usuários |  09/04/2025 | 21/05/2025 |   ✔️   |  21/05/2025  |
-| Caique Villarreal | Quadro tarefas                |  09/04/2025 | 21/05/2025 |   ✔️   |  21/05/2025  |
-| Caique Villarreal | Auxílio template padrão       |  09/04/2025 | 21/05/2025 |   ✔️   |  21/05/2025  |
-| Gabriel Madureira | Wireframe                     |  09/04/2025 | 21/05/2025 |   ✔️   |  21/05/2025  |
-| Gabriel Madureira | User Flow                     |  09/04/2025 | 21/05/2025 |   ✔️   |  21/05/2025  |
-| Gabriel Madureira | Código front                  |  09/04/2025 | 21/05/2025 |   ✔️   |  21/05/2025  |
-| Gabriel Madureira | Gestão de tarefas             |  09/04/2025 | 21/05/2025 |   ✔️   |  21/05/2025  |
-| Filipe Augusto    | Template padrão               |  09/04/2025 | 21/05/2025 |   ✔️   |  21/05/2025  |
-| Filipe Augusto    | Slides                        |  09/04/2025 | 21/05/2025 |   ✔️   |  21/05/2025  |
-| Filipe Augusto    | Código front                  |  09/04/2025 | 21/05/2025 |   ✔️   |  21/05/2025  |
-| Filipe Augusto    | Quadro tarefas                |  09/04/2025 | 21/05/2025 |   ✔️   |  21/05/2025  |
+| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
+| Caique Villarreal | Diagrama de Fluxo de usuarios | 05/03/2025 | 08/04/2025| ✔️  | 08/04/2025|
+| Caique Villarreal | Quadro tarefas | 05/03/2025 | 08/04/2025| ✔️  | 08/04/2025|
+| Caique Villarreal | Auxilio template padrão | 05/03/2025 | 08/04/2025| ✔️  | 08/04/2025|
+| Gabriel Madureira | Wireframe | 05/03/2025 | 09/04/2025 |✔️ | 09/04/2025|
+| Gabriel Madureira | User Flow | 05/03/2025 | 09/04/2025 |✔️ | 09/04/2025|
+| Gabriel Madureira | Codigo front | 05/03/2025 | 09/04/2025 |✔️ | 09/04/2025|
+| Gabriel Madureira | Gestão de tarefas | 05/03/2025 | 09/04/2025 |✔️ | 09/04/2025|
+| Filipe  Augusto  | Templete padrão| 09/04/2025 | 09/04/2025 |✔️ | 09/04/2025|
+| Filipe  Augusto  | Slides| 05/04/2025 | 09/04/2025 |✔️ | 09/04/2025|
+| Filipe  Augusto  | Codigo front | 05/03/2025 | 09/04/2025 |✔️ | 09/04/2025|
+| Filipe  Augusto  | Quadro tarefas | 05/03/2025 | 09/04/2025 |✔️ | 09/04/2025|
 
 
 Legenda:
@@ -98,16 +98,18 @@ Legenda:
 
 Atualizado em: 25/06/2025
 
-| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
-| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| Caique Villarreal | User Flow | 05/03/2025 | 08/04/2025| ✔️  | 08/04/2025|
-| Caique Villarreal | Diagrama de atividade Usuário Avançado  | 05/03/2025 | 08/04/2025| ✔️  | 08/04/2025|
-| Caique Villarreal | Atualização front | 09/04/2025 | 09/04/2025 |✔️ | 09/04/2025|
-| Gabriel Madureira | Diagrama de atividade Usuário Padrão | 05/03/2025 | 09/04/2025 |✔️ | 09/04/2025|
-| Gabriel Madureira | Atualização front | 05/03/2025 | 09/04/2025 |✔️ | 09/04/2025|
-| Filipe  Augusto  | Atualização front | 09/04/2025 | 09/04/2025 |✔️ | 09/04/2025|
-| Filipe  Augusto  | Templete padrão | 09/04/2025 | 09/04/2025 |✔️ | 09/04/2025|
-| Filipe  Augusto  | Criação Banco de Dados | 09/04/2025 | 09/04/2025 |✔️ | 09/04/2025|
+| Responsável       | Tarefa/Requisito                       | Iniciado em |    Prazo   | Status | Terminado em |
+| :---------------- | :------------------------------------- | :---------: | :--------: | :----: | :----------: |
+| Caique Villarreal | User Flow                              |  09/04/2025 | 15/04/2025 |   ✔️   |  15/04/2025  |
+| Caique Villarreal | Diagrama de atividade Usuário Avançado |  09/04/2025 | 18/04/2025 |   ✔️   |  18/04/2025  |
+| Caique Villarreal | Atualização front                      |  09/04/2025 | 21/04/2025 |   ✔️   |  21/04/2025  |
+| Gabriel Madureira | Diagrama de atividade Usuário Padrão   |  09/04/2025 | 17/04/2025 |   ✔️   |  17/04/2025  |
+| Gabriel Madureira | Atualização front                      |  09/04/2025 | 20/04/2025 |   ✔️   |  20/04/2025  |
+| Gabriel Madureira | Criação Banco de Dados                 |  09/04/2025 | 30/04/2025 |   ✔️   |  30/04/2025  |
+| Filipe Augusto    | Atualização front                      |  09/04/2025 | 22/04/2025 |   ✔️   |  22/04/2025  |
+| Filipe Augusto    | Template padrão                        |  09/04/2025 | 26/04/2025 |   ✔️   |  26/04/2025  |
+| Filipe Augusto    | Criação Banco de Dados                 |  09/04/2025 | 30/04/2025 |   ✔️   |  30/04/2025  |
+| Filipe Augusto    | Slides                                 |  09/04/2025 | 30/04/2025 |   ✔️   |  30/04/2025  |
 
 
 Legenda:
@@ -120,11 +122,29 @@ Legenda:
 
 Atualizado em: 25/06/2025
 
-| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
-| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| Caique Villarreal | Diagrama de Fluxo de usuarios | 05/03/2025 | 08/04/2025| ✔️  | 08/04/2025|
-| Gabriel Madureira | Gestão de tarefas | 05/03/2025 | 09/04/2025 |✔️ | 09/04/2025|
-| Filipe  Augusto  | Templete padrão| 09/04/2025 | 09/04/2025 |✔️ | 09/04/2025|
+| Responsável       | Tarefa/Requisito              | Iniciado em |    Prazo   | Status | Terminado em |
+| :---------------- | :---------------------------- | :---------: | :--------: | :----: | :----------: |
+| Caique Villarreal | Diagrama de Fluxo de usuários |  21/05/2025 | 18/06/2025 |   ✔️   |  18/06/2025  |
+| Caique Villarreal | Back com Node (playlist)      |  21/05/2025 | 18/06/2025 |   ✔️   |  18/06/2025  |
+| Caique Villarreal | Calculo SUS                   |  21/05/2025 | 18/06/2025 |   ✔️   |  18/06/2025  |
+| Caique Villarreal | Testes de Usabilidade         |  21/05/2025 | 18/06/2025 |   ✔️   |  18/06/2025  |
+| Caique Villarreal | Testes de software            |  21/05/2025 | 18/06/2025 |   ✔️   |  18/06/2025  |
+| Caique Villarreal | Documentação                  |  21/05/2025 | 18/06/2025 |   ✔️   |  18/06/2025  |
+| Gabriel Madureira | Gestão de tarefas             |  21/05/2025 | 18/06/2025 |   ✔️   |  18/06/2025  |
+| Gabriel Madureira | Back com Node (login)         |  21/05/2025 | 18/06/2025 |   ✔️   |  18/06/2025  |
+| Gabriel Madureira | Back com Node (Perfil)        |  21/05/2025 | 18/06/2025 |   ✔️   |  18/06/2025  |
+| Gabriel Madureira | Slides                        |  21/05/2025 | 18/06/2025 |   ✔️   |  18/06/2025  |
+| Gabriel Madureira | Testes de Usabilidade         |  21/05/2025 | 18/06/2025 |   ✔️   |  18/06/2025  |
+| Gabriel Madureira | Testes de software            |  21/05/2025 | 18/06/2025 |   ✔️   |  18/06/2025  |
+| Caique Villarreal | Testes de software            |  21/05/2025 | 18/06/2025 |   ✔️   |  18/06/2025  |
+| Caique Villarreal | Documentação                  |  21/05/2025 | 18/06/2025 |   ✔️   |  18/06/2025  |
+| Filipe Augusto    | Testes de Usabilidade         |  21/05/2025 | 18/06/2025 |   ✔️   |  18/06/2025  |
+| Filipe Augusto    | Template padrão               |  21/05/2025 | 18/06/2025 |   ✔️   |  18/06/2025  |
+| Filipe Augusto    | Back com Node (meta)          |  21/05/2025 | 18/06/2025 |   ✔️   |  18/06/2025  |
+| Filipe Augusto    | Slides                        |  21/05/2025 | 18/06/2025 |   ✔️   |  18/06/2025  |
+| Filipe Augusto    | Criar Forms SUS               |  21/05/2025 | 18/06/2025 |   ✔️   |  18/06/2025  |
+| Filipe Augusto    | Testes de software            |  21/05/2025 | 18/06/2025 |   ✔️   |  18/06/2025  |
+
 
 Legenda:
 - ✔️: terminado
