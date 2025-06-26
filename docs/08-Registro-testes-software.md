@@ -76,14 +76,3 @@
 |:---:	|:---:	|
 | Requisito associado | RF-015 - A aplicação deve permitir que usuários editem as informações do seu perfil. |
 | Registro de evidência | ![Editar](images/testes/editar-perfil.png) |
-
-
-> **Links úteis**:
-> - [Screencast: entenda o que é e como gravar vídeos com ele](https://rockcontent.com/br/blog/screencast/) 
-
-## Avaliação
-
-Discorra sobre os resultados do teste, ressaltando os pontos fortes e fracos identificados na solução. Comente como o grupo pretende abordar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
-
-> **Links úteis**:
-> - [Ferramentas de Teste para JavaScript](https://geekflare.com/javascript-unit-testing/)
